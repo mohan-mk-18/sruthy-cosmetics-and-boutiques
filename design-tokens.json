@@ -1,0 +1,44 @@
+{
+  "color": {
+    "background.base": "#F7E8EC",
+    "background.surface": "#FFFFFF",
+    "text.primary": "#1A0B12",
+    "accent.cta": "#C57C8A",
+    "accent.ctaHover": "#A85D6D",
+    "support.blush": "#F0D3DA",
+    "border.glass": "rgba(255,255,255,0.6)",
+    "shadow.base": "rgba(26,11,18,0.06)"
+  },
+  "colorRatio": {
+    "background_60pct": "#F7E8EC — Soft Pale Rose",
+    "text_30pct": "#1A0B12 — Near-Black Plum",
+    "accent_10pct": "#C57C8A — Dusty Mauve / Soft Wine"
+  },
+  "typography": {
+    "display": "Playfair Display",
+    "body": "Montserrat",
+    "micro": "Manrope"
+  },
+  "radius": {
+    "card": "14px"
+  },
+  "motion": {
+    "duration.subtle": "150ms",
+    "duration.default": "300ms",
+    "duration.extended": "600ms",
+    "duration.slow": "900ms",
+    "easing.signature": "cubic-bezier(0.22, 1, 0.36, 1)"
+  },
+  "spacing": {
+    "section": "8rem",
+    "sectionSm": "5rem"
+  },
+  "breakpoints": {
+    "xs": "320px",
+    "sm": "375px",
+    "md": "425px",
+    "lg": "768px",
+    "xl": "1024px",
+    "2xl": "1440px"
+  }
+}

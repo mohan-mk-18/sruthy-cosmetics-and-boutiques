@@ -1,0 +1,1538 @@
+[
+  {
+  "id": "p-005",
+  "slug": "garnier-bright-complete-vitamin-c-booster-serum",
+  "name": "Garnier Bright Complete 30x Vitamin C Booster Serum",
+  "price": "₹___",
+  "category": "Serums",
+  "categorySlug": "beauty-products/serums",
+  "description": "Brightening Vitamin C serum that helps reduce dark spots and enhances skin radiance.",
+  "story": "Powered by 30x Vitamin C, this lightweight booster serum is designed to visibly reduce dark spots and reveal brighter, glowing skin. Its fast-absorbing formula is suitable for daily use and layers comfortably under moisturizer or makeup.",
+  "materials": ["30x Vitamin C", "Brightening Complex"],
+  "images": ["/images/garnier-booster-serum.jpg"],
+  "isSample": false
+},
+  {
+    "id": "p-008",
+    "slug": "aari-work-bridal-blouse",
+    "name": "Aari Work Bridal Blouse",
+    "price": "Price on request",
+    "category": "Aari Work",
+    "categorySlug": "boutique/aari-work",
+    "description": "Hand-embroidered Aari work blouse, made to measure.",
+    "story": "Every thread on this blouse is hand-worked by our in-house Aari artisans — book a consultation to choose motifs, stone density, and colourway before we take your measurements.",
+    "materials": ["Silk base fabric", "Zari and bead Aari work"],
+    "images": ["/images/boutique-bridal-costume-1.jpg"],
+    "isSample": true
+  },
+  {
+    "id": "p-009",
+    "slug": "customised-anarkali-stitching",
+    "name": "Customised Anarkali Stitching",
+    "price": "Price on request",
+    "category": "Customized Dress Stitching",
+    "categorySlug": "boutique/customized-dress-stitching",
+    "description": "Made-to-measure Anarkali stitching in your chosen fabric.",
+    "story": "Bring your own fabric or choose from our in-store materials — our tailoring team takes it from sketch to fitting across a short, guided consultation process.",
+    "materials": ["Customer-selected fabric"],
+    "images": ["/images/boutique-stitching-1.jpg"],
+    "isSample": true
+  },
+{
+  "id": "p-011",
+  "slug": "plum-niacinamide-serum",
+  "name": "Plum Rice Water & Niacinamide Serum",
+  "price": "₹599",
+  "category": "Serums",
+  "categorySlug": "beauty-products/serums",
+  "description": "Brightening serum with Niacinamide and Rice Water.",
+  "story": "Visit our store to explore this skincare serum and receive personalized beauty recommendations from our team.",
+  "materials": ["Rice Water", "Niacinamide 10%"],
+  "images": ["/images/plum-niacinamide-serum.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-012",
+  "slug": "derma-co-niacinamide-serum",
+  "name": "The Derma Co 10% Niacinamide Face Serum",
+  "price": "₹___",
+  "category": "Serums",
+  "categorySlug": "beauty-products/serums",
+  "description": "A lightweight serum that helps reduce blemishes and improve skin texture.",
+  "story": " This serum is formulated with 10% Niacinamide and Zinc to help control excess oil production and minimize the appearance of pores. Ideal for daily use, it can be layered under moisturizer or makeup.",
+  "materials": ["Niacinamide 10%", "Zinc"],
+  "images": ["/images/derma-co-niacinamide-serum.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-013",
+  "slug": "glow-lovely-10-percent-niacinamide-face-serum",
+  "name": "Glow & Lovely 10% Niacinamide Face Serum",
+  "price": "₹___",
+  "category": "Serums",
+  "categorySlug": "beauty-products/serums",
+  "description": "Niacinamide face serum formulated to brighten skin and improve overall complexion.",
+  "story": "Enriched with 10% Niacinamide, this lightweight face serum helps improve skin clarity, reduce dullness, and promote an even skin tone. The non-greasy formula absorbs quickly, making it ideal for everyday skincare routines.",
+  "materials": ["Niacinamide 10%"],
+  "images": ["/images/glow-and-lovely-serum.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-014",
+  "slug": "ponds-bright-beauty-gluta-niacinamide-serum",
+  "name": "Pond's Bright Beauty Gluta Niacinamide 12% Serum",
+  "price": "₹249",
+  "category": "Serums",
+  "categorySlug": "beauty-products/serums",
+  "description": "12% Gluta Niacinamide serum for brighter, smoother, and even-toned skin.",
+  "story": "Infused with a 12% Gluta Niacinamide Complex, this serum helps reduce dullness, improve skin texture, and promote a radiant complexion. Its lightweight formula is suitable for daily use and blends effortlessly into any skincare routine.",
+  "materials": ["Gluta Complex", "Niacinamide 12%"],
+  "images": ["/images/ponds-gluta-niacinamide-serum.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-017",
+  "slug": "traditional-chandbali-earrings",
+  "name": "Traditional Chandbali Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Elegant Chandbali earrings featuring sparkling stones and pearl drop detailing.",
+  "story": "Inspired by timeless Indian craftsmanship, these Chandbali earrings showcase intricate stone embellishments with graceful pearl drops. A perfect accessory for weddings, festive celebrations, and traditional outfits, they add a touch of regal elegance to every look.",
+  "materials": [
+    "Gold-tone alloy",
+    "Crystal stones",
+    "Pearl drops"
+  ],
+  "images": ["/images/chandbali-earrings-1.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-018",
+  "slug": "green-beaded-chandbali-earrings",
+  "name": "Green Beaded Chandbali Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Traditional Chandbali earrings adorned with sparkling stones and elegant green bead drops.",
+  "story": "Designed to make a statement, these Chandbali earrings feature intricate floral stone detailing, an antique gold-tone finish, and rich emerald-green crystal drops. Perfect for festive occasions, weddings, and ethnic ensembles, they bring timeless elegance to every look.",
+  "materials": [
+    "Gold-tone alloy",
+    "Crystal stones",
+    "Green crystal bead drops",
+    "Pearl accents"
+  ],
+  "images": ["/images/chandbali-earrings-2.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-019",
+  "slug": "lavender-crystal-chandbali-earrings",
+  "name": "Lavender Crystal Chandbali Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Elegant Chandbali earrings embellished with sparkling stones and soft lavender crystal drops.",
+  "story": "Crafted with intricate floral stone detailing and finished with graceful lavender crystal bead drops, these Chandbali earrings blend traditional charm with contemporary elegance. An ideal choice for festive celebrations, weddings, and special occasions.",
+  "materials": [
+    "Silver-tone alloy",
+    "Crystal stones",
+    "Lavender crystal bead drops",
+    "Pearl accents"
+  ],
+  "images": ["/images/chandbali-earrings-3.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-020",
+  "slug": "black-crystal-chandbali-earrings",
+  "name": "Black Crystal Chandbali Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Contemporary Chandbali earrings featuring sparkling stones with elegant black crystal drops.",
+  "story": "A modern interpretation of the classic Chandbali design, these earrings are crafted with dazzling crystal embellishments and finished with bold black crystal drops and delicate pearl accents. Perfect for festive occasions, evening parties, and traditional celebrations, they effortlessly elevate any ethnic ensemble.",
+  "materials": [
+    "Silver-tone alloy",
+    "Crystal stones",
+    "Black crystal bead drops",
+    "Pearl accents"
+  ],
+  "images": ["/images/chandbali-earrings-4.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-022",
+  "slug": "royal-blue-stone-jhumka-earrings",
+  "name": "Royal Blue Stone Jhumka Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Traditional jhumka earrings featuring royal blue stones and handcrafted bead detailing.",
+  "story": "Inspired by classic South Indian temple jewellery, these elegant jhumkas showcase a floral arrangement of royal blue stones paired with intricately engraved dome-shaped bells. Finished with matching blue bead clusters, they are a graceful choice for weddings, festive celebrations, and ethnic occasions.",
+  "materials": [
+    "Gold-tone alloy",
+    "Royal blue crystal stones",
+    "Blue bead clusters",
+    "Antique finish"
+  ],
+  "images": ["/images/jhumkas-type-1.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-023",
+  "slug": "antique-stone-jhumka-earrings",
+  "name": "Antique Stone Jhumka Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Elegant antique-finish jhumka earrings embellished with shimmering stones and intricate detailing.",
+  "story": "These beautifully handcrafted jhumka earrings feature an intricate antique finish accented with sparkling champagne stones and traditional dome-shaped craftsmanship. Designed to complement sarees, lehengas, and salwar suits, they are a timeless choice for weddings, festive occasions, and cultural celebrations.",
+  "materials": [
+    "Antique silver-tone alloy",
+    "Champagne crystal stones",
+    "Handcrafted metal detailing"
+  ],
+  "images": ["/images/jhumkas-type-2.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-024",
+  "slug": "traditional-black-bead-jhumka-earrings",
+  "name": "Traditional Black Bead Jhumka Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Classic temple-style jhumka earrings featuring an antique gold finish with elegant black bead drops.",
+  "story": "Beautifully crafted with traditional South Indian-inspired motifs, these jhumka earrings feature an ornate dome design, floral detailing, and delicate black bead accents. Their timeless craftsmanship makes them a perfect accessory for weddings, festive celebrations, and everyday ethnic wear.",
+  "materials": [
+    "Antique gold-tone alloy",
+    "Black crystal stones",
+    "Black bead drops"
+  ],
+  "images": ["/images/jhumkas-type-3.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-025",
+  "slug": "ruby-stone-antique-jhumka-earrings",
+  "name": "Ruby Stone Antique Jhumka Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Elegant antique-finish jhumka earrings adorned with ruby-toned stones and matching red bead drops.",
+  "story": "Inspired by traditional temple jewellery, these handcrafted jhumka earrings feature intricate antique detailing, rich ruby-toned stones, and vibrant red bead accents. Their timeless design pairs beautifully with sarees, lehengas, and festive ethnic wear, making them a graceful choice for weddings and special occasions.",
+  "materials": [
+    "Antique gold-tone alloy",
+    "Ruby-toned crystal stones",
+    "Red bead drops"
+  ],
+  "images": ["/images/jhumkas-type-4.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-026",
+  "slug": "pink-crystal-antique-jhumka-earrings",
+  "name": "Pink Crystal Antique Jhumka Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Graceful antique-finish jhumka earrings embellished with pink crystals and delicate blush bead drops.",
+  "story": "These elegant jhumka earrings feature a floral-inspired top adorned with soft pink stones, an intricately engraved antique dome, and shimmering blush crystal bead drops. Blending timeless craftsmanship with feminine elegance, they are a perfect choice for weddings, festive occasions, and traditional celebrations.",
+  "materials": [
+    "Antique gold-tone alloy",
+    "Pink crystal stones",
+    "Blush pink crystal bead drops"
+  ],
+  "images": ["/images/jhumkas-type-5.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-027",
+  "slug": "antique-champagne-stone-jhumka-earrings",
+  "name": "Antique Champagne Stone Jhumka Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Traditional jhumka earrings featuring an antique finish with shimmering champagne stones and intricate craftsmanship.",
+  "story": "Crafted with timeless elegance, these handcrafted jhumka earrings showcase concentric champagne-toned stone detailing and a beautifully textured dome design. Their vintage-inspired finish makes them a versatile accessory for weddings, festive celebrations, and ethnic occasions, adding classic charm to every outfit.",
+  "materials": [
+    "Antique silver-tone alloy",
+    "Champagne crystal stones",
+    "Handcrafted metal detailing"
+  ],
+  "images": ["/images/jhumkas-type-6.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-028",
+  "slug": "lavender-pearl-drop-earrings",
+  "name": "Lavender Pearl Drop Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Modern drop earrings featuring a sleek circular hoop, soft lavender accent, and elegant pearl detailing.",
+  "story": "Designed with a contemporary minimalist aesthetic, these lightweight drop earrings combine a polished metal hoop with a soft lavender centerpiece and lustrous faux pearls. Perfect for casual outings, office wear, parties, and modern ethnic looks, they add effortless elegance to any outfit.",
+  "materials": [
+    "Silver-tone alloy",
+    "Acrylic lavender accent",
+    "Faux pearls"
+  ],
+  "images": ["/images/earrings-2.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-029",
+  "slug": "blue-crystal-hoop-drop-earrings",
+  "name": "Blue Crystal Hoop Drop Earrings",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "Contemporary hoop drop earrings featuring a sparkling blue crystal and sleek silver-tone finish.",
+  "story": "Designed for those who love modern elegance, these lightweight hoop drop earrings combine polished silver-tone hoops with a brilliant blue crystal accent and subtle star charm. Their minimalist design makes them perfect for casual outings, office wear, parties, and western-inspired looks.",
+  "materials": [
+    "Silver-tone alloy",
+    "Blue crystal stone",
+    "Stainless steel hooks"
+  ],
+  "images": ["/images/earrings-3.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-030",
+  "slug": "multicolor-round-stud-earrings-set",
+  "name": "Multicolor Round Stud Earrings Set",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "A versatile collection of glossy round stud earrings in multiple colors and sizes for everyday wear.",
+  "story": "Designed for effortless everyday styling, this multicolor stud earrings set offers a wide selection of vibrant shades and sizes to complement every outfit. Lightweight, comfortable, and easy to pair with both casual and traditional looks, it's a must-have addition to any jewellery collection.",
+  "materials": [
+    "Alloy metal",
+    "Glossy resin finish",
+    "Stainless steel posts"
+  ],
+  "images": ["/images/studs-type-1.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-031",
+  "slug": "multicolor-crystal-stud-earrings-set",
+  "name": "Multicolor Crystal Stud Earrings Set",
+  "price": "₹___",
+  "category": "Earrings",
+  "categorySlug": "jewellery/earrings",
+  "description": "A premium collection of sparkling crystal stud earrings available in multiple vibrant colors and sizes.",
+  "story": "Add a touch of everyday elegance with this versatile crystal stud earrings set. Featuring brilliant-cut stones in classic and vibrant shades, these lightweight studs are perfect for daily wear, office outfits, casual styling, and special occasions. Mix and match your favorite colors to complement every look.",
+  "materials": [
+    "Gold-tone alloy",
+    "Premium cubic zirconia crystals",
+    "Stainless steel posts"
+  ],
+  "images": ["/images/studs-type-2.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-032",
+  "slug": "flower-claw-hair-clips",
+  "name": "Flower Claw Hair Clips",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "jewellery/others",
+  "description": "Elegant flower-shaped claw hair clips available in a variety of vibrant translucent colors.",
+  "story": "Designed to combine beauty and practicality, these floral claw clips securely hold your hair while adding a charming touch to your everyday style. Crafted with a glossy translucent finish and available in multiple colors, they are perfect for casual outings, festive occasions, and effortless everyday hairstyles.",
+  "materials": [
+    "Premium acrylic",
+    "Durable spring clasp",
+    "Glossy translucent finish"
+  ],
+  "images": ["/images/flower-claw-clips-1.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-033",
+  "slug": "tropical-flower-claw-hair-clips",
+  "name": "Tropical Flower Claw Hair Clips",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "jewellery/others",
+  "description": "Beautiful tropical flower claw hair clips available in soft pastel shades and vibrant floral designs.",
+  "story": "Inspired by blooming tropical flowers, these elegant claw clips feature a glossy finish and a strong spring clasp for a secure yet comfortable hold. Available in a variety of pastel and vibrant colors, they effortlessly complement casual, festive, and vacation-inspired hairstyles while adding a fresh floral charm to your look.",
+  "materials": [
+    "Premium acrylic",
+    "Durable spring clasp",
+    "Glossy floral finish"
+  ],
+  "images": ["/images/flower-claw-clips-2.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-034",
+  "slug": "mini-flower-claw-hair-clips",
+  "name": "Mini Flower Claw Hair Clips",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "jewellery/others",
+  "description": "Cute mini flower claw hair clips in vibrant translucent colors for effortless everyday styling.",
+  "story": "These adorable mini flower claw clips are designed to securely hold small sections of hair while adding a playful floral touch. Their compact size and glossy translucent finish make them perfect for half-up hairstyles, kids' hairstyles, casual outings, and everyday fashion.",
+  "materials": [
+    "Premium acrylic",
+    "Durable spring clasp",
+    "Glossy translucent finish"
+  ],
+  "images": ["/images/flower-claw-clips-3.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-035",
+  "slug": "matte-flower-claw-hair-clips",
+  "name": "Matte Flower Claw Hair Clips",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "jewellery/others",
+  "description": "Elegant matte-finish flower claw hair clips available in soft neutral and pastel shades.",
+  "story": "Designed with a modern matte finish and delicate floral silhouette, these claw clips provide a secure, comfortable grip while adding effortless elegance to your hairstyle. Available in timeless neutral and pastel colors, they are perfect for everyday wear, office styling, casual outings, and minimalist fashion looks.",
+  "materials": [
+    "Premium matte-finish acrylic",
+    "Durable spring clasp",
+    "Non-slip claw grip"
+  ],
+  "images": ["/images/flower-claw-clips-4.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-036",
+  "slug": "temple-design-stone-bangles-set",
+  "name": "Temple Design Stone Bangles Set",
+  "price": "₹___",
+  "category": "Bangles",
+  "categorySlug": "jewellery/bangles",
+  "description": "Premium temple-style bangles featuring intricate deity motifs with elegant green and ruby stone accents.",
+  "story": "Inspired by traditional South Indian temple jewellery, this handcrafted bangle set showcases exquisite Lakshmi-inspired motifs, intricate filigree work, and rich emerald-green and ruby-red stone detailing. Designed to complement bridal wear, festive attire, and silk sarees, these bangles add timeless elegance and heritage charm to every occasion.",
+  "materials": [
+    "Gold-tone alloy",
+    "Green synthetic stones",
+    "Ruby-red synthetic stones",
+    "Temple-inspired embossed detailing"
+  ],
+  "images": ["/images/bangles-type-1.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-037",
+  "slug": "gold-tone-open-cuff-bangle",
+  "name": "Gold Tone Open Cuff Bangle",
+  "price": "₹___",
+  "category": "Bangles",
+  "categorySlug": "jewellery/bangles",
+  "description": "Elegant open cuff bangle featuring a modern leaf-inspired centerpiece with a premium gold-tone finish.",
+  "story": "Designed for everyday elegance, this minimalist open cuff bangle blends contemporary styling with timeless charm. Its sleek open design and delicate leaf motif make it a versatile accessory that pairs beautifully with ethnic, western, and fusion outfits.",
+  "materials": [
+    "Gold-tone alloy",
+    "Matte textured finish",
+    "Leaf motif detailing"
+  ],
+  "images": ["/images/bangles-open-cuff-1.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-038",
+  "slug": "gold-tone-open-cuff-bangle-2",
+  "name": "Gold Tone Open Cuff Bangle",
+  "price": "₹___",
+  "category": "Bangles",
+  "categorySlug": "jewellery/bangles",
+  "description": "Modern open cuff bangle featuring a sparkling crystal centerpiece with elegant black and white enamel accents.",
+  "story": "A stylish fusion of minimalism and sophistication, this open cuff bangle is designed to complement both everyday wear and festive outfits. The crystal centerpiece and contrasting enamel details create a refined, contemporary look.",
+  "materials": [
+    "Gold-tone alloy",
+    "Crystal stone",
+    "Black & white enamel accents"
+  ],
+  "images": ["/images/bangles-open-cuff-2.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-039",
+  "slug": "gold-tone-open-cuff-bangle-3",
+  "name": "Gold Tone Open Cuff Bangle",
+  "price": "₹___",
+  "category": "Bangles",
+  "categorySlug": "jewellery/bangles",
+  "description": "Elegant open cuff bangle featuring a sparkling butterfly-inspired crystal centerpiece with a sleek gold-tone finish.",
+  "story": "Gracefully crafted for a modern yet timeless appeal, this open cuff bangle showcases a delicate butterfly-inspired design adorned with shimmering crystals. Its lightweight construction and minimalist style make it perfect for daily wear as well as special occasions.",
+  "materials": [
+    "Gold-tone alloy",
+    "Crystal stones",
+    "Polished finish"
+  ],
+  "images": ["/images/bangles-open-cuff-3.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-040",
+  "slug": "gold-tone-open-cuff-bangle-4",
+  "name": "Gold Tone Open Cuff Bangle",
+  "price": "₹___",
+  "category": "Bangles",
+  "categorySlug": "jewellery/bangles",
+  "description": "Minimalist open cuff bangle featuring a delicate heart motif with an elegant gold-tone finish.",
+  "story": "Simple yet meaningful, this open cuff bangle is designed with a charming heart centerpiece that symbolizes love and elegance. Its sleek silhouette makes it perfect for everyday wear while effortlessly complementing festive and casual outfits alike.",
+  "materials": [
+    "Gold-tone alloy",
+    "Heart motif detailing",
+    "Polished finish"
+  ],
+  "images": ["/images/bangles-open-cuff-4.jpg"],
+  "isSample": false
+},{
+  "id": "p-041",
+  "slug": "peacock-motif-oxidised-necklace-set",
+  "name": "Peacock Motif Oxidised Necklace Set",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Elegant oxidised necklace set featuring intricate peacock feather motifs with matching stud earrings.",
+  "story": "Inspired by the timeless beauty of peacock feathers, this handcrafted oxidised necklace set combines traditional artistry with everyday elegance. The detailed blue enamel accents and matching earrings make it a graceful choice for festive occasions, ethnic wear, and cultural celebrations.",
+  "materials": [
+    "Oxidised alloy",
+    "Blue enamel detailing",
+    "Matching stud earrings"
+  ],
+  "images": ["/images/necklace-type-1.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-042",
+  "slug": "gold-covering-necklace-1",
+  "name": "Gold Covering Necklace",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Elegant gold covering necklace featuring a delicate teardrop pattern with sparkling stone detailing.",
+  "story": "Crafted with a graceful blend of traditional elegance and modern simplicity, this lightweight gold covering necklace is perfect for festive occasions, weddings, and everyday ethnic styling. Its timeless teardrop design adds a refined touch to any outfit.",
+  "materials": [
+    "Gold-tone alloy",
+    "Premium stone embellishments",
+    "Polished finish"
+  ],
+  "images": ["/images/gold-covering-necklace-1.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-043",
+  "slug": "antique-necklace-1",
+  "name": "Antique Necklace Set",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Traditional antique-finish necklace set featuring intricate floral motifs with matching stud earrings.",
+  "story": "Inspired by timeless South Indian craftsmanship, this antique necklace set showcases elegant floral detailing and a classic temple-style finish. Paired with matching earrings, it's an ideal choice for weddings, festivals, and traditional celebrations.",
+  "materials": [
+    "Antique gold-tone alloy",
+    "Green stone accents",
+    "Matching stud earrings"
+  ],
+  "images": ["/images/antique-necklace-1.jpg"],
+  "isSample": false
+},{
+  "id": "p-044",
+  "slug": "antique-necklace-2",
+  "name": "Antique Temple Charm Necklace",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Traditional antique-finish necklace featuring temple-inspired deity charms and colorful floral accents.",
+  "story": "Blending heritage craftsmanship with elegant detailing, this antique necklace showcases intricately carved temple motifs paired with vibrant floral accents in ruby and emerald tones. Its unique charm design makes it a beautiful choice for festive occasions, weddings, and traditional attire.",
+  "materials": [
+    "Antique gold-tone alloy",
+    "Temple motif charms",
+    "Red and green stone accents"
+  ],
+  "images": ["/images/antique-necklace-2.jpg"],
+  "isSample": false
+},{
+  "id": "p-046",
+  "slug": "anti-tarnish-necklace-1",
+  "name": "Anti-Tarnish Heart Pendant Necklace",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Minimalist anti-tarnish necklace featuring elegant black heart charms for a chic everyday look.",
+  "story": "Designed for effortless everyday elegance, this anti-tarnish necklace showcases delicate black enamel heart charms with a dangling heart pendant. Its lightweight, modern design makes it perfect for daily wear, casual outfits, office looks, or gifting someone special.",
+  "materials": [
+    "Anti-tarnish stainless steel",
+    "Gold-tone finish",
+    "Black enamel heart charms"
+  ],
+  "images": ["/images/anti-tarnish-necklace-1.jpg"],
+  "isSample": false
+},{
+  "id": "p-045",
+  "slug": "antique-necklace-3",
+  "name": "Antique Lakshmi Pendant Necklace",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Elegant antique-finish necklace featuring a traditional Lakshmi pendant adorned with pearl drops.",
+  "story": "A timeless piece inspired by South Indian temple jewellery, this antique necklace features a beautifully detailed Goddess Lakshmi pendant surrounded by a radiant sunburst design. Finished with delicate pearl drops, it adds grace and tradition to festive celebrations, weddings, and cultural occasions.",
+  "materials": [
+    "Antique gold-tone alloy",
+    "Lakshmi temple pendant",
+    "Pearl drop accents"
+  ],
+  "images": ["/images/antique-necklace-3.jpg"],
+  "isSample": false
+}
+,{
+  "id": "p-047",
+  "slug": "anti-tarnish-necklace-2",
+  "name": "Anti-Tarnish Crystal Pendant Necklace",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Elegant anti-tarnish necklace featuring a sparkling crystal pendant with a delicate dangling stone.",
+  "story": "Crafted for modern elegance, this anti-tarnish necklace showcases a graceful curved crystal pendant finished with a shimmering dangling stone. Its lightweight and minimal design makes it perfect for everyday wear, office outfits, parties, or as a thoughtful gift.",
+  "materials": [
+    "Anti-tarnish stainless steel",
+    "Gold-tone finish",
+    "Premium cubic zirconia crystals"
+  ],
+  "images": ["/images/anti-tarnish-necklace-2.jpg"],
+  "isSample": false
+},{
+  "id": "p-048",
+  "slug": "palakka-necklace-1",
+  "name": "Palakka Necklace Set",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Traditional Palakka necklace set featuring classic green and red leaf motifs with matching earrings.",
+  "story": "Inspired by the timeless elegance of Kerala's iconic Palakka jewellery, this beautifully crafted necklace set showcases vibrant green and red enamel leaf motifs with matching drop earrings. A graceful choice for festivals, weddings, temple visits, and traditional attire.",
+  "materials": [
+    "Gold-tone alloy",
+    "Green & red Palakka enamel",
+    "Matching earrings",
+    "Bead drop accents"
+  ],
+  "images": ["/images/palakka-necklace-1.jpg"],
+  "isSample": false
+},{
+  "id": "p-049",
+  "slug": "necklace-type-2",
+  "name": "Crystal Stone Necklace Set",
+  "price": "₹___",
+  "category": "Necklace",
+  "categorySlug": "jewellery/necklace",
+  "description": "Elegant crystal stone necklace set with matching stud earrings, available in multiple vibrant colours.",
+  "story": "Designed to add a touch of sparkle to every occasion, this crystal necklace set features premium marquise-cut stones paired with matching stud earrings. Available in a variety of colours including emerald green, ruby red, sapphire blue, black, sky blue, and magenta, it's the perfect accessory for parties, weddings, festive celebrations, and evening wear.",
+  "materials": [
+    "Silver-tone alloy",
+    "Premium marquise-cut crystal stones",
+    "Matching crystal stud earrings"
+  ],
+  "images": ["/images/necklace-type-2.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-050",
+  "slug": "gold-covering-bangles",
+  "name": "Gold Covering Bangles Collection",
+  "price": "₹___",
+  "category": "Gold Covering Jewellery",
+  "categorySlug": "jewellery/gold-covering-jewellery",
+  "description": "Premium collection of gold covering bangles available in traditional, bridal, stone-studded, and everyday designs.",
+  "story": "Celebrate every occasion with our elegant Gold Covering Bangles Collection. From classic daily wear bangles to intricately crafted bridal and temple-inspired designs, this collection offers a wide variety of patterns, widths, and finishes to complement both traditional and modern outfits. Perfect for weddings, festivals, and gifting.",
+  "materials": [
+    "Premium gold covering alloy",
+    "High-polish gold finish",
+    "Stone-studded & engraved designs",
+    "Available in multiple sizes and styles"
+  ],
+  "images": ["/images/gold-covering-bangles.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-051",
+  "slug": "gold-covering-bangles-2",
+  "name": "Classic Gold Covering Bangles",
+  "price": "₹___",
+  "category": "Gold Covering Jewellery",
+  "categorySlug": "jewellery/gold-covering-jewellery",
+  "description": "Elegant plain gold covering bangles with a timeless textured center design for everyday and festive wear.",
+  "story": "Simple yet sophisticated, these classic gold covering bangles feature a sleek polished finish with finely textured center accents that add just the right amount of sparkle. Lightweight and versatile, they pair beautifully with both ethnic and contemporary outfits, making them an essential addition to every jewellery collection.",
+  "materials": [
+    "Premium gold covering alloy",
+    "High-polish gold finish",
+    "Textured center detailing",
+    "Lightweight construction"
+  ],
+  "images": ["/images/gold-covering-bangles-2.jpg"],
+  "isSample": false
+},
+{
+  "id": "p-052",
+  "slug": "gold-covering-chains",
+  "name": "Gold Covering Pendant Chains",
+  "price": "₹___",
+  "category": "Gold Covering Jewellery",
+  "categorySlug": "jewellery/gold-covering-jewellery",
+  "description": "Elegant gold covering chains with stylish pendants, perfect for everyday wear and special occasions.",
+  "story": "Designed with simplicity and elegance in mind, these gold covering pendant chains feature delicate chains paired with beautifully crafted pendants in floral, leaf, paisley, and contemporary motifs. Lightweight and versatile, they're ideal for daily wear, office outfits, casual occasions, and thoughtful gifting.",
+  "materials": [
+    "Premium gold covering alloy",
+    "High-polish gold finish",
+    "Decorative pendant designs",
+    "Lightweight chain construction"
+  ],
+  "images": ["/images/gold-covering-chains.jpg"],
+  "isSample": false
+},{
+  "id": "p-053",
+  "slug": "gold-covering-bracelets-1",
+  "name": "Gold Covering Bracelet Collection",
+  "price": "₹___",
+  "category": "Gold Covering Jewellery",
+  "categorySlug": "jewellery/gold-covering-jewellery",
+  "description": "Elegant gold covering bracelets featuring crystal charm and classic link designs for everyday and festive wear.",
+  "story": "Designed to complement every style, this Gold Covering Bracelet Collection includes delicate charm bracelets with sparkling red and green crystal drops alongside a timeless leaf-link bracelet. Lightweight, stylish, and versatile, these bracelets are perfect for daily wear, festive occasions, and thoughtful gifting.",
+  "materials": [
+    "Premium gold covering alloy",
+    "High-polish gold finish",
+    "Red & green crystal charms",
+    "Classic leaf-link design"
+  ],
+  "images": ["/images/gold-covering-bracelets-1.jpg"],
+  "isSample": false
+},{
+  "id": "p-054",
+  "slug": "gold-covering-bracelets-2",
+  "name": "Gold Covering Charm Bracelet Collection",
+  "price": "₹___",
+  "category": "Gold Covering Jewellery",
+  "categorySlug": "jewellery/gold-covering-jewellery",
+  "description": "Stylish gold covering charm bracelets featuring heart, leaf, smiley, and classic chain designs for everyday elegance.",
+  "story": "Add a playful touch to your jewelry collection with this Gold Covering Charm Bracelet Collection. Featuring elegant heart links, delicate leaf charms, trendy smiley charms, and timeless chain patterns, these lightweight bracelets are perfect for daily wear, gifting, and effortlessly elevating any outfit.",
+  "materials": [
+    "Premium gold covering alloy",
+    "High-polish gold finish",
+    "Heart, leaf & smiley charm designs",
+    "Adjustable lobster clasp closure"
+  ],
+  "images": ["/images/gold-covering-bracelets-2.jpg"],
+  "isSample": false
+},{
+  "id": "p-055",
+  "slug": "gold-covering-necklace",
+  "name": "Gold Covering Heart Drop Necklace Set",
+  "price": "₹___",
+  "category": "Gold Covering Jewellery",
+  "categorySlug": "jewellery/gold-covering-jewellery",
+  "description": "Elegant gold covering necklace featuring textured heart motifs with a delicate center drop, paired with matching earrings.",
+  "story": "Designed to celebrate timeless elegance, this Gold Covering Heart Drop Necklace Set combines graceful heart-shaped links with a beautifully balanced center pendant. Its lightweight design and classic gold finish make it perfect for festive occasions, family functions, parties, or adding a touch of sophistication to everyday wear.",
+  "materials": [
+    "Premium gold covering alloy",
+    "High-polish gold finish",
+    "Textured heart motif design",
+    "Matching earrings included",
+    "Lightweight and comfortable"
+  ],
+  "images": ["/images/gold-covering-necklace.jpg"],
+  "isSample": false
+},{
+  "id": "p-056",
+  "slug": "gold-covering-anklet-1",
+  "name": "Gold Covering Beaded Anklet",
+  "price": "₹___",
+  "category": "Gold Covering Jewellery",
+  "categorySlug": "jewellery/gold-covering-jewellery",
+  "description": "Minimalist gold covering anklet featuring delicate bead accents for an elegant everyday look.",
+  "story": "Graceful and effortlessly stylish, this Gold Covering Beaded Anklet is designed for women who love subtle elegance. Featuring a fine gold-finish chain with polished bead accents, it complements both traditional and western outfits, making it perfect for daily wear, festive occasions, and gifting.",
+  "materials": [
+    "Premium gold covering alloy",
+    "High-polish gold finish",
+    "Decorative bead accents",
+    "Adjustable hook closure",
+    "Lightweight and comfortable"
+  ],
+  "images": ["/images/gold-covering-anklet-1.jpg"],
+  "isSample": false
+},{
+  "id": "p-057",
+  "slug": "gold-covering-anklet-2",
+  "name": "Gold Covering Dainty Beaded Anklet",
+  "price": "₹___",
+  "category": "Gold Covering Jewellery",
+  "categorySlug": "jewellery/gold-covering-jewellery",
+  "description": "Elegant gold covering anklet with evenly spaced bead accents for a refined and graceful everyday style.",
+  "story": "Simple, elegant, and timeless, this Gold Covering Dainty Beaded Anklet is crafted for those who appreciate minimal jewelry. The delicate chain is adorned with evenly spaced polished beads, creating a sophisticated look that pairs beautifully with ethnic, casual, and festive outfits.",
+  "materials": [
+    "Premium gold covering alloy",
+    "High-polish gold finish",
+    "Evenly spaced bead detailing",
+    "Adjustable hook closure",
+    "Lightweight for all-day comfort"
+  ],
+  "images": ["/images/gold-covering-anklet-2.jpg"],
+  "isSample": false
+},{
+  "id": "p-058",
+  "slug": "other-anklet-1",
+  "name": "Black Beaded Anklet",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "jewellery/others",
+  "description": "Classic black beaded anklet with a lightweight chain design, perfect for everyday wear and traditional styling.",
+  "story": "A timeless accessory featuring elegant black bead accents along a delicate chain. Lightweight and comfortable, this anklet complements both traditional and casual outfits, making it an ideal choice for everyday wear.",
+  "materials": [
+    "Premium alloy chain",
+    "Black bead accents",
+    "High-quality polish",
+    "Adjustable hook closure",
+    "Lightweight design"
+  ],
+  "images": ["/images/other-anklet-1.jpg"],
+  "isSample": false
+},{
+  "id": "p-059",
+  "slug": "other-anklet-2",
+  "name": "Black Bead Chain Anklet",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "jewellery/others",
+  "description": "Elegant anklet featuring a sleek gold-tone chain with black bead accents for a timeless traditional look.",
+  "story": "Designed with a delicate gold-tone chain and evenly spaced black beads, this anklet offers a graceful blend of simplicity and tradition. Lightweight and comfortable, it pairs effortlessly with ethnic outfits, casual wear, and festive attire, making it a versatile everyday accessory.",
+  "materials": [
+    "Premium alloy chain",
+    "Black bead accents",
+    "Gold-tone finish",
+    "Adjustable hook closure",
+    "Lightweight construction"
+  ],
+  "images": ["/images/other-anklet-2.jpg"],
+  "isSample": false
+},{
+  "id": "p-060",
+  "slug": "other-anklet-3",
+  "name": "Silver Finish Designer Anklet",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "jewellery/others",
+  "description": "Elegant silver-finish anklet featuring intricately crafted center beads on a sleek chain for a sophisticated everyday look.",
+  "story": "Crafted with a refined silver finish, this designer anklet showcases beautifully detailed center beads that add a touch of elegance without being overwhelming. Its minimalist style makes it perfect for daily wear, festive occasions, and pairing with both ethnic and contemporary outfits.",
+  "materials": [
+    "Premium alloy",
+    "Silver-tone finish",
+    "Decorative designer bead accents",
+    "Adjustable hook closure",
+    "Lightweight and comfortable"
+  ],
+  "images": ["/images/other-anklet-3.jpg"],
+  "isSample": false
+},{
+  "id": "p-061",
+  "slug": "wedding-set-1",
+  "name": "Bridal Layered Wedding Jewellery Set",
+  "price": "₹___",
+  "category": "Wedding Jewellery Sets",
+  "categorySlug": "jewellery/wedding-jewellery-sets",
+  "description": "Grand bridal jewellery set featuring multiple layered necklaces with intricate gold-tone detailing for weddings and special occasions.",
+  "story": "Designed to make every bride shine, this Bridal Layered Wedding Jewellery Set showcases a luxurious multi-layered design with elegant motifs, textured chains, sparkling accents, and a statement centerpiece. Perfect for weddings, receptions, engagements, and festive celebrations, this set adds timeless grandeur to any traditional ensemble.",
+  "materials": [
+    "Premium alloy",
+    "Gold-tone finish",
+    "Multi-layered necklace design",
+    "Decorative stone embellishments",
+    "Statement bridal centerpiece",
+    "Lightweight craftsmanship"
+  ],
+  "images": ["/images/wedding-set-1.jpg"],
+  "isSample": false
+},{
+  "id": "p-062",
+  "slug": "wedding-set-2",
+  "name": "Royal Layered Bridal Jewellery Set",
+  "price": "₹___",
+  "category": "Wedding Jewellery Sets",
+  "categorySlug": "jewellery/wedding-jewellery-sets",
+  "description": "Luxurious multi-layered bridal jewellery set featuring long harams, heart motifs, stone detailing, and matching jhumka earrings.",
+  "story": "Make a grand bridal statement with this Royal Layered Bridal Jewellery Set. Beautifully crafted with multiple necklace layers, elegant heart motifs, sparkling stone accents, intricate floral detailing, and long traditional harams, this complete set is designed to elevate bridal and festive looks with timeless elegance and royal charm.",
+  "materials": [
+    "Premium alloy",
+    "High-quality gold-tone finish",
+    "Multi-layered necklace design",
+    "Stone and heart motif detailing",
+    "Traditional long haram styling",
+    "Matching jhumka earrings included",
+    "Lightweight craftsmanship"
+  ],
+  "images": ["/images/wedding-set-2.jpg"],
+  "isSample": false
+},{
+  "id": "p-063",
+  "slug": "wedding-set-3",
+  "name": "Traditional Grand Bridal Jewellery Set",
+  "price": "₹___",
+  "category": "Wedding Jewellery Sets",
+  "categorySlug": "jewellery/wedding-jewellery-sets",
+  "description": "Traditional bridal jewellery set featuring a bold leaf-pattern long haram, elegant short necklace, and matching jhumka earrings.",
+  "story": "Celebrate timeless tradition with this Traditional Grand Bridal Jewellery Set. Designed with a striking long haram featuring intricate leaf motifs, a beautifully crafted short necklace with fine detailing, and matching jhumka earrings, this set is perfect for weddings, receptions, temple occasions, and festive celebrations.",
+  "materials": [
+    "Premium alloy",
+    "High-quality gold-tone finish",
+    "Traditional long haram design",
+    "Intricate leaf motif detailing",
+    "Elegant short necklace",
+    "Matching jhumka earrings included",
+    "Lightweight and comfortable"
+  ],
+  "images": [
+    "/images/wedding-set-3.jpg"
+  ],
+  "isSample": false
+},
+{
+  "id": "p-015",
+  "slug": "plum-green-tea-pore-cleansing-face-wash",
+  "name": "Plum Green Tea Pore Cleansing Face Wash",
+  "price": "₹___",
+  "category": "Face Wash",
+  "categorySlug": "beauty-products/face-wash",
+  "description": "Oil-control face wash enriched with Green Tea to deeply cleanse pores and remove excess oil.",
+  "story": "Specially formulated for oily and acne-prone skin, this Green Tea face wash effectively removes impurities, controls excess oil, and leaves the skin feeling fresh without over-drying. Its gentle cleansing formula makes it ideal for everyday use.",
+  "materials": [
+    "Green Tea Extract",
+    "Gentle Cleansing Agents"
+  ],
+  "images": [
+    "/images/face-wash-1.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-016",
+  "slug": "mamaearth-rice-dewy-bright-face-wash",
+  "name": "Mamaearth Rice Dewy Bright Face Wash",
+  "price": "₹___",
+  "category": "Face Wash",
+  "categorySlug": "beauty-products/face-wash",
+  "description": "Hydrating face wash with Rice Water and Niacinamide for bright, glass-like skin.",
+  "story": "Infused with Rice Water and Niacinamide, this gentle face wash effectively cleanses dirt and impurities while helping to hydrate, brighten, and improve skin radiance. Suitable for all skin types, its sulfate-free formula leaves skin soft, fresh, and naturally glowing after every wash.",
+  "materials": [
+    "Rice Water",
+    "Niacinamide",
+    "Vitamin B3",
+    "Sulfate-Free Cleansing Base"
+  ],
+  "images": [
+    "/images/face-wash-2.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-064",
+  "slug": "cetaphil-oily-skin-cleanser",
+  "name": "Cetaphil Oily Skin Cleanser",
+  "price": "₹___",
+  "category": "Face Wash",
+  "categorySlug": "beauty-products/face-wash",
+  "description": "Gentle daily cleanser specially formulated for oily and sensitive skin to remove excess oil while maintaining the skin's natural moisture balance.",
+  "story": "Developed for combination to oily, sensitive skin, this dermatologist-recommended cleanser effectively removes dirt, excess oil, and impurities without disrupting the skin's protective barrier. Enriched with Niacinamide (Vitamin B3) and Pro-Vitamin B5, it helps keep skin feeling clean, refreshed, and comfortably hydrated after every wash.",
+  "materials": [
+    "Niacinamide (Vitamin B3)",
+    "Pro-Vitamin B5",
+    "Gentle Cleansing Formula"
+  ],
+  "images": [
+    "/images/face-wash-3.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-065",
+  "slug": "himalaya-neem-face-wash",
+  "name": "Himalaya Purifying Neem Face Wash",
+  "price": "₹___",
+  "category": "Face Wash",
+  "categorySlug": "beauty-products/face-wash",
+  "description": "Soap-free daily face wash with Neem and Turmeric that helps purify skin and prevent pimples.",
+  "story": "Enriched with the natural goodness of Neem and Turmeric, this gentle face wash effectively removes dirt, excess oil, and impurities while helping to reduce acne-causing bacteria. Its soap-free formula cleanses without over-drying, leaving skin fresh, clean, and healthy-looking after every wash.",
+  "materials": [
+    "Neem",
+    "Turmeric",
+    "Soap-Free Cleansing Base"
+  ],
+  "images": [
+    "/images/face-wash-4.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-066",
+  "slug": "mamaearth-vitamin-c-face-wash",
+  "name": "Mamaearth Vitamin C Face Wash",
+  "price": "₹___",
+  "category": "Face Wash",
+  "categorySlug": "beauty-products/face-wash",
+  "description": "Brightening face wash enriched with Vitamin C and Turmeric to gently cleanse and reveal radiant skin.",
+  "story": "Formulated with the goodness of Vitamin C and Turmeric, this face wash helps remove dirt, excess oil, and daily impurities while promoting a brighter, more even-looking complexion. Its gentle formula is suitable for everyday use and leaves skin feeling refreshed, soft, and naturally glowing.",
+  "materials": [
+    "Vitamin C",
+    "Turmeric",
+    "Gentle Cleansing Base"
+  ],
+  "images": [
+    "/images/face-wash-5.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-067",
+  "slug": "himalaya-brightening-vitamin-c-face-wash",
+  "name": "Himalaya Brightening Vitamin C Blueberry Face Wash",
+  "price": "₹___",
+  "category": "Face Wash",
+  "categorySlug": "beauty-products/face-wash",
+  "description": "Brightening face wash infused with Vitamin C and Blueberry to gently cleanse, refresh, and enhance skin radiance.",
+  "story": "Powered by the antioxidant benefits of Vitamin C and Blueberry extracts, this daily face wash effectively removes dirt, excess oil, and impurities while helping to brighten dull-looking skin. Its gentle cleansing formula leaves the skin feeling clean, refreshed, and naturally radiant after every wash.",
+  "materials": [
+    "Vitamin C",
+    "Blueberry Extract",
+    "Gentle Cleansing Base"
+  ],
+  "images": [
+    "/images/face-wash-6.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-068",
+  "slug": "plum-rice-water-niacinamide-hybrid-sunscreen-spf-50",
+  "name": "Plum Rice Water & Niacinamide Hybrid Sunscreen SPF 50 PA++++",
+  "price": "₹___",
+  "category": "Sunscreen",
+  "categorySlug": "beauty-products/sunscreen",
+  "description": "Lightweight hybrid sunscreen with Rice Water and 2% Niacinamide that provides broad-spectrum SPF 50 PA++++ protection.",
+  "story": "Formulated with Rice Water and 2% Niacinamide, this non-comedogenic hybrid sunscreen helps protect skin from harmful UVA and UVB rays while supporting an even-looking complexion. Its lightweight, water-resistant formula blends effortlessly without leaving a greasy feel, making it ideal for everyday wear.",
+  "materials": [
+    "Rice Water",
+    "2% Niacinamide",
+    "Broad Spectrum UV Filters",
+    "SPF 50 PA++++"
+  ],
+  "images": [
+    "/images/sunscreen-1.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-069",
+  "slug": "minimalist-light-fluid-sunscreen-spf-50",
+  "name": "Minimalist Light Fluid Sunscreen SPF 50 PA++++",
+  "price": "₹___",
+  "category": "Sunscreen",
+  "categorySlug": "beauty-products/sunscreen",
+  "description": "Lightweight broad-spectrum sunscreen with SPF 50 PA++++ that provides effective daily UV protection without a greasy finish.",
+  "story": "This lightweight sunscreen is formulated with broad-spectrum UV filters, Niacinamide, Vitamin B5, and Vitamin F to help protect skin from harmful UVA and UVB rays while supporting the skin barrier. Its fast-absorbing, non-sticky formula is suitable for all skin types and blends comfortably under makeup or daily skincare.",
+  "materials": [
+    "Niacinamide",
+    "Vitamin B5",
+    "Vitamin F",
+    "Broad Spectrum UV Filters",
+    "SPF 50 PA++++"
+  ],
+  "images": [
+    "/images/sunscreen-2.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-070",
+  "slug": "deconstruct-gel-sunscreen-spf-50",
+  "name": "Deconstruct Gel Sunscreen SPF 50 PA++++",
+  "price": "₹___",
+  "category": "Sunscreen",
+  "categorySlug": "beauty-products/sunscreen",
+  "description": "Lightweight gel sunscreen with SPF 50 PA++++ that provides broad-spectrum sun protection with a non-greasy finish.",
+  "story": "Specially formulated for oily and combination skin, this dermatologist-recommended gel sunscreen features advanced photostable UV filters to provide effective protection against harmful UVA and UVB rays. Its lightweight, fast-absorbing formula leaves no white cast and offers a comfortable matte finish for everyday wear.",
+  "materials": [
+    "Photostable UV Filters",
+    "Broad Spectrum Protection",
+    "SPF 50 PA++++",
+    "Gel-Based Formula"
+  ],
+  "images": [
+    "/images/sunscreen-3.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-071",
+  "slug": "aqualogica-detan-dewy-sunscreen-spf-50",
+  "name": "Aqualogica Detan+ Dewy Sunscreen SPF 50+ PA++++",
+  "price": "₹___",
+  "category": "Sunscreen",
+  "categorySlug": "beauty-products/sunscreen",
+  "description": "Lightweight dewy sunscreen with Cherry Tomato and Hyaluronic Acid that helps protect against UV rays while reducing tanning.",
+  "story": "Infused with Cherry Tomato and Hyaluronic Acid, this lightweight sunscreen provides broad-spectrum SPF 50+ PA++++ protection while helping to fight tan and keep skin hydrated. Its non-greasy, fast-absorbing formula also offers blue light protection, making it an ideal choice for everyday outdoor and screen exposure.",
+  "materials": [
+    "Cherry Tomato Extract",
+    "Hyaluronic Acid",
+    "Broad Spectrum UV Filters",
+    "SPF 50+ PA++++"
+  ],
+  "images": [
+    "/images/sunscreen-4.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-072",
+  "slug": "mamaearth-vitamin-c-daily-glow-sunscreen-spf-50",
+  "name": "Mamaearth Vitamin C Daily Glow Sunscreen SPF 50 PA++++",
+  "price": "₹___",
+  "category": "Sunscreen",
+  "categorySlug": "beauty-products/sunscreen",
+  "description": "Daily glow sunscreen enriched with Vitamin C and Turmeric that offers broad-spectrum SPF 50 PA++++ protection while enhancing skin radiance.",
+  "story": "Formulated with the goodness of Vitamin C and Turmeric, this lightweight sunscreen helps protect the skin from harmful UVA and UVB rays while promoting a healthy, radiant glow. Its non-greasy, fast-absorbing formula is suitable for all skin types and provides comfortable everyday sun protection without leaving a white cast.",
+  "materials": [
+    "Vitamin C",
+    "Turmeric",
+    "Broad Spectrum UV Filters",
+    "SPF 50 PA++++"
+  ],
+  "images": [
+    "/images/sunscreen-5.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-073",
+  "slug": "coloressence-time-to-prime-foundation",
+  "name": "Coloressence Time To Prime Foundation",
+  "price": "₹___",
+  "category": "Foundation",
+  "categorySlug": "beauty-products/foundation",
+  "description": "Lightweight liquid foundation that delivers seamless coverage with a smooth natural-looking finish.",
+  "story": "Designed for comfortable all-day wear, this lightweight liquid foundation blends effortlessly into the skin to create an even complexion while minimizing the appearance of imperfections. Its buildable formula offers a soft, natural finish suitable for everyday makeup as well as special occasions.",
+  "materials": [
+    "Lightweight Liquid Formula",
+    "Skin-Smoothing Pigments",
+    "Buildable Coverage"
+  ],
+  "images": [
+    "/images/foundation-1.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-074",
+  "slug": "mars-hd-pressed-powder-foundation",
+  "name": "MARS HD Pressed Powder Foundation",
+  "price": "₹___",
+  "category": "Foundation",
+  "categorySlug": "beauty-products/foundation",
+  "description": "Lightweight pressed powder foundation that delivers smooth coverage with a natural matte finish.",
+  "story": "This HD pressed powder foundation helps even out skin tone while controlling excess oil for a soft matte look. Its silky texture blends effortlessly, providing buildable coverage that's perfect for daily wear, touch-ups, and long-lasting makeup throughout the day.",
+  "materials": [
+    "Micronized Powder Pigments",
+    "Oil-Control Formula",
+    "Soft Matte Finish"
+  ],
+  "images": [
+    "/images/foundation-2.jpg"
+  ],
+  "isSample": false
+},
+{
+  "id": "p-075",
+  "slug": "swiss-beauty-hd-matte-compact-foundation",
+  "name": "Swiss Beauty HD Matte Compact Foundation",
+  "price": "₹___",
+  "category": "Foundation",
+  "categorySlug": "beauty-products/foundation",
+  "description": "HD matte compact foundation that delivers smooth, even coverage with a long-lasting shine-free finish.",
+  "story": "Crafted for everyday wear, this HD compact foundation helps blur imperfections, control excess oil, and provide a natural matte complexion. Its lightweight formula blends seamlessly into the skin, making it ideal for quick touch-ups and all-day fresh-looking makeup.",
+  "materials": [
+    "Micronized Powder Pigments",
+    "Oil-Control Formula",
+    "HD Matte Finish"
+  ],
+  "images": [
+    "/images/foundation-3.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-076",
+  "slug": "facescanada-weightless-stay-matte-compact",
+  "name": "FACESCANADA Weightless Stay Matte Compact",
+  "price": "₹___",
+  "category": "Foundation",
+  "categorySlug": "beauty-products/foundation",
+  "description": "Weightless matte compact foundation that provides smooth, buildable coverage with a long-lasting shine-free finish.",
+  "story": "Designed for everyday comfort, this lightweight compact foundation blends effortlessly to even out skin tone while helping control excess oil. Its silky formula delivers a natural matte finish, making it perfect for quick touch-ups and all-day fresh-looking makeup.",
+  "materials": [
+    "Micronized Powder Pigments",
+    "Oil-Control Formula",
+    "Weightless Matte Finish"
+  ],
+  "images": [
+    "/images/foundation-4.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-077",
+  "slug": "lakme-9to5-sun-expert-powder-matte-compact-spf-40",
+  "name": "Lakmé 9to5 Sun Expert Powder Matte Compact SPF 40 PA+++",
+  "price": "₹___",
+  "category": "Foundation",
+  "categorySlug": "beauty-products/foundation",
+  "description": "Matte compact foundation with SPF 40 PA+++ that provides smooth coverage while helping protect skin from sun exposure.",
+  "story": "Designed for everyday wear, this lightweight powder compact delivers a natural matte finish while offering SPF 40 PA+++ sun protection. Its silky formula helps control excess oil, evens out skin tone, and keeps makeup looking fresh throughout the day, making it ideal for daily touch-ups.",
+  "materials": [
+    "Micronized Powder Pigments",
+    "SPF 40 PA+++ UV Filters",
+    "Oil-Control Formula"
+  ],
+  "images": [
+    "/images/foundation-5.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-078",
+  "slug": "maybelline-fit-me-matte-poreless-liquid-foundation",
+  "name": "Maybelline Fit Me Matte + Poreless Liquid Foundation",
+  "price": "₹___",
+  "category": "Foundation",
+  "categorySlug": "beauty-products/foundation",
+  "description": "Lightweight liquid foundation that provides natural matte coverage while helping blur the appearance of pores.",
+  "story": "Specially formulated for normal to oily skin, this bestselling liquid foundation blends seamlessly into the skin to deliver buildable, natural-looking coverage with a smooth matte finish. Its lightweight formula helps minimize the appearance of pores and keeps the complexion looking fresh and shine-free throughout the day.",
+  "materials": [
+    "Micro-Fine Pigments",
+    "Pore-Blurring Formula",
+    "Matte Finish Technology"
+  ],
+  "images": [
+    "/images/foundation-6.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-079",
+  "slug": "facescanada-strobe-cc-tint-5-in-1-glow-getter",
+  "name": "FACESCANADA Strobe CC Tint 5-in-1 Glow Getter",
+  "price": "₹___",
+  "category": "BB Cream",
+  "categorySlug": "beauty-products/bb-cream",
+  "description": "Lightweight CC tint that hydrates, evens skin tone, and delivers a natural radiant glow in one easy step.",
+  "story": "Infused with Niacinamide and Hyaluronic Acid, this multi-benefit CC tint works as a moisturizer, primer, skin tint, glow enhancer, and complexion corrector. Its lightweight formula blends seamlessly to provide a fresh, dewy finish that's perfect for everyday makeup.",
+  "materials": [
+    "Niacinamide",
+    "Hyaluronic Acid",
+    "Lightweight Tint Formula",
+    "Glow-Enhancing Pigments"
+  ],
+  "images": [
+    "/images/bbcream-1.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-080",
+  "slug": "maybelline-fit-me-glow-bb-cream-spf-50",
+  "name": "Maybelline Fit Me Glow BB Cream SPF 50",
+  "price": "₹___",
+  "category": "BB Cream",
+  "categorySlug": "beauty-products/bb-cream",
+  "description": "Glow-enhancing BB cream with SPF 50 that hydrates, evens skin tone, and provides a naturally radiant finish.",
+  "story": "Formulated for everyday wear, this lightweight BB cream offers 24-hour hydration while providing SPF 50 sun protection. Its breathable formula blends effortlessly to blur imperfections, even out skin tone, and leave the skin looking fresh, healthy, and naturally luminous throughout the day.",
+  "materials": [
+    "SPF 50 UV Filters",
+    "Hydrating Complex",
+    "Skin-Perfecting Pigments",
+    "Lightweight BB Formula"
+  ],
+  "images": [
+    "/images/bbcream-2.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-081",
+  "slug": "lakme-9to5-cc-plus-complexion-care-cream",
+  "name": "Lakmé 9to5 CC+ Complexion Care Cream",
+  "price": "₹___",
+  "category": "BB Cream",
+  "categorySlug": "beauty-products/bb-cream",
+  "description": "Complexion care cream enriched with 3% Niacinamide and SPF 30 PA++ for natural coverage and everyday sun protection.",
+  "story": "This lightweight CC+ cream combines skincare and makeup in one formula. Infused with 3% Niacinamide, it helps even out skin tone while providing SPF 30 PA++ protection against harmful UV rays. The breathable texture blends effortlessly to deliver a fresh, naturally radiant finish suitable for daily wear.",
+  "materials": [
+    "3% Niacinamide",
+    "SPF 30 PA++ UV Filters",
+    "Lightweight CC Formula",
+    "Skin-Perfecting Pigments"
+  ],
+  "images": [
+    "/images/bbcream-3.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-082",
+  "slug": "ponds-bright-miracle-bb-plus-cream",
+  "name": "Pond's Bright Miracle BB+ Cream",
+  "price": "₹___",
+  "category": "BB Cream",
+  "categorySlug": "beauty-products/bb-cream",
+  "description": "Light foundation BB cream enriched with 3% Niacinamide for natural coverage, brighter-looking skin, and everyday sun protection.",
+  "story": "This lightweight BB+ cream blends skincare and makeup into one easy step. Infused with 3% Niacinamide, it helps brighten the complexion, even out skin tone, and provide a smooth natural finish while SPF 30 PA++ protects against daily sun exposure. Ideal for effortless everyday makeup.",
+  "materials": [
+    "3% Niacinamide",
+    "SPF 30 PA++ UV Filters",
+    "Lightweight Foundation Formula",
+    "Skin-Brightening Complex"
+  ],
+  "images": [
+    "/images/bbcream-4.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-083",
+  "slug": "ny-bae-prime-strobe-cream",
+  "name": "NY Bae Prime Strobe Cream",
+  "price": "₹___",
+  "category": "BB Cream",
+  "categorySlug": "beauty-products/bb-cream",
+  "description": "Illuminating strobe cream that primes the skin and delivers a radiant, dewy glow before makeup application.",
+  "story": "Create a naturally luminous base with this lightweight strobe cream. Designed to hydrate, smooth, and brighten the complexion, it can be worn alone for a subtle glow or underneath foundation and BB cream for a radiant, long-lasting makeup finish. Available in multiple glow-enhancing variants to suit different skin tones.",
+  "materials": [
+    "Light-Reflecting Pearls",
+    "Hydrating Formula",
+    "Glow-Enhancing Pigments"
+  ],
+  "images": [
+    "/images/bbcream-5.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-084",
+  "slug": "blue-heaven-flawless-makeup-base-primer",
+  "name": "Blue Heaven Flawless Makeup Base Primer",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "Oil-free makeup primer that smooths skin, minimizes the appearance of pores, and creates the perfect base for long-lasting makeup.",
+  "story": "Designed to prep the skin before makeup application, this lightweight primer helps blur fine lines and pores while delivering a soft matte finish. Its silky texture ensures smoother foundation application and improves makeup wear throughout the day.",
+  "materials": [
+    "Silicone-Based Smoothing Formula",
+    "Oil-Free Base",
+    "Pore-Blurring Technology"
+  ],
+  "images": [
+    "/images/other-beauty-products-1.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-085",
+  "slug": "insight-prime-n-perfect-hydrating-primer",
+  "name": "Insight Prime 'N Perfect Hydrating Primer",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "Hydrating makeup primer that moisturizes the skin while creating a smooth base for flawless makeup application.",
+  "story": "This lightweight hydrating primer helps nourish the skin while minimizing the appearance of pores and uneven texture. Its smooth formula allows foundation to glide on effortlessly, enhancing makeup longevity and leaving the skin fresh, soft, and radiant throughout the day.",
+  "materials": [
+    "Hydrating Formula",
+    "Skin-Smoothing Polymers",
+    "Lightweight Primer Base"
+  ],
+  "images": [
+    "/images/other-beauty-products-2.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-086",
+  "slug": "faces-canada-all-day-hydra-matte-foundation-3-in-1",
+  "name": "FACESCANADA All Day Hydra Matte Foundation 3-in-1",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "3-in-1 hydra matte formula that works as a foundation, moisturizer, and sunscreen for a smooth, natural-looking finish.",
+  "story": "Infused with Aloe Vera and Vitamin C, this multifunctional formula hydrates the skin while providing buildable coverage and SPF 30 protection. Its lightweight texture blends seamlessly, delivering a soft matte finish that's comfortable enough for everyday wear.",
+  "materials": [
+    "Aloe Vera",
+    "Vitamin C",
+    "SPF 30 UV Filters",
+    "Hydra Matte Formula"
+  ],
+  "images": [
+    "/images/other-beauty-products-3.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-087",
+  "slug": "dazller-fix-the-look-makeup-fixer",
+  "name": "Dazller Fix The Look Makeup Fixer",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "Long-lasting makeup fixing spray that locks makeup in place while keeping the skin fresh, hydrated, and non-sticky.",
+  "story": "Designed to extend the wear of your makeup, this lightweight fixing spray delivers a fine mist that helps set makeup without feeling heavy. Its hydrating, matte-finish formula keeps your look fresh, minimizes smudging, and provides comfortable all-day wear.",
+  "materials": [
+    "Lightweight Setting Formula",
+    "Hydrating Ingredients",
+    "Fine Mist Spray"
+  ],
+  "images": [
+    "/images/other-beauty-products-4.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-088",
+  "slug": "blue-heaven-long-lasting-makeup-fixer",
+  "name": "Blue Heaven Long Lasting Makeup Fixer",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "Long-lasting makeup setting spray that helps lock makeup in place with a fresh dewy glow and soft matte finish.",
+  "story": "Formulated to keep your makeup looking fresh for hours, this lightweight setting spray dries quickly and helps reduce makeup transfer. Its fine mist delivers a comfortable, non-sticky feel while enhancing your makeup with a natural dewy glow and smooth matte effect.",
+  "materials": [
+    "Quick-Dry Setting Formula",
+    "Fine Mist Spray",
+    "Paraben-Free Formula"
+  ],
+  "images": [
+    "/images/other-beauty-products-5.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-089",
+  "slug": "natures-essence-refreshing-rose-toner",
+  "name": "Nature's Essence Refreshing Rose Toner",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "Refreshing rose toner that tones, hydrates, and soothes the skin while leaving it feeling fresh and revitalized.",
+  "story": "Infused with the goodness of rose extracts, this gentle facial toner helps remove residual impurities after cleansing, restores the skin's natural freshness, and provides instant hydration. Its lightweight, alcohol-free feel makes it suitable for daily skincare routines, leaving the skin soft, calm, and refreshed.",
+  "materials": [
+    "Rose Extract",
+    "Hydrating Formula",
+    "Skin-Soothing Ingredients"
+  ],
+  "images": [
+    "/images/other-beauty-products-6.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-090",
+  "slug": "alps-goodness-rosemary-water",
+  "name": "Alps Goodness Rosemary Water",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "Pure rosemary water spray that refreshes the scalp, nourishes hair, and promotes healthier-looking, thicker hair.",
+  "story": "Infused with the goodness of rosemary, this lightweight hair mist helps revitalize the scalp while supporting stronger, healthier hair. Free from silicone, sulphates, and parabens, it can be used daily to refresh the scalp, reduce dryness, and leave hair feeling naturally healthy and manageable.",
+  "materials": [
+    "Rosemary Extract",
+    "Silicone-Free Formula",
+    "Sulphate-Free Formula",
+    "Paraben-Free Formula"
+  ],
+  "images": [
+    "/images/other-beauty-products-7.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-091",
+  "slug": "banjaras-premium-rose-water",
+  "name": "Banjara's Premium Rose Water",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "Refreshing premium rose water that tones, hydrates, and soothes the skin for a naturally fresh complexion.",
+  "story": "Enriched with natural rose extract, this gentle facial mist helps tone the skin, restore hydration, and calm irritation after cleansing. Its alcohol-free and paraben-free formula makes it suitable for daily skincare, leaving the skin soft, refreshed, and naturally radiant.",
+  "materials": [
+    "Rose Extract",
+    "Alcohol-Free Formula",
+    "Paraben-Free Formula"
+  ],
+  "images": [
+    "/images/other-beauty-products-8.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-092",
+  "slug": "dabur-gulabari-premium-rose-water",
+  "name": "Dabur Gulabari Premium Rose Water",
+  "price": "₹___",
+  "category": "Others",
+  "categorySlug": "beauty-products/others",
+  "description": "Premium rose water that refreshes, tones, and hydrates the skin while leaving it naturally soft and radiant.",
+  "story": "Enriched with the goodness of real rose extracts, Dabur Gulabari Premium Rose Water helps cleanse residual impurities, tighten pores, and restore the skin's natural freshness. Its gentle formula is suitable for everyday use as a toner, facial mist, or refreshing skincare essential, leaving the skin soft, hydrated, and revitalized.",
+  "materials": [
+    "Rose Extract",
+    "Hydrating Formula",
+    "Skin-Toning Ingredients"
+  ],
+  "images": [
+    "/images/other-beauty-products-9.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-093",
+  "slug": "g4u-liquid-lipstick-set",
+  "name": "G4U Liquid Lipstick Set",
+  "price": "₹___",
+  "category": "Lipsticks",
+  "categorySlug": "beauty-products/lipsticks",
+  "description": "Liquid lipstick gift set featuring a collection of richly pigmented shades with a smooth matte finish.",
+  "story": "This lipstick collection includes a variety of nude, pink, red, and berry shades to complement every mood and occasion. The lightweight formula glides effortlessly onto the lips, delivering intense color payoff with a comfortable, long-lasting matte finish.",
+  "materials": [
+    "Highly Pigmented Color Formula",
+    "Matte Finish",
+    "Creamy Liquid Texture"
+  ],
+  "images": [
+    "/images/lip-stick-1.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-094",
+  "slug": "dazller-matte-liquid-lipstick",
+  "name": "Dazller Matte Liquid Lipstick",
+  "price": "₹___",
+  "category": "Lipsticks",
+  "categorySlug": "beauty-products/lipsticks",
+  "description": "Highly pigmented matte liquid lipstick that delivers bold color with a smooth, long-lasting finish.",
+  "story": "Available in a wide range of trendy shades including nudes, pinks, browns, and plums, this lightweight liquid lipstick glides on effortlessly for full coverage in a single swipe. Its comfortable matte formula is smudge-resistant and designed for long-lasting everyday wear.",
+  "materials": [
+    "Highly Pigmented Formula",
+    "Matte Finish",
+    "Long-Wear Color"
+  ],
+  "images": [
+    "/images/lip-stick-2.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-095",
+  "slug": "just-herbs-herb-enriched-ayurvedic-lipstick-micro-mini-set",
+  "name": "Just Herbs Herb-Enriched Ayurvedic Lipstick Micro Mini Set",
+  "price": "₹___",
+  "category": "Lipsticks",
+  "categorySlug": "beauty-products/lipsticks",
+  "description": "A premium lipstick mini set featuring 16 herb-enriched shades across reds, pinks, nudes, and browns.",
+  "story": "Crafted with Ayurvedic herbs and nourishing ingredients, this lipstick collection offers richly pigmented shades in convenient mini sizes. The creamy formula glides effortlessly onto the lips, delivering comfortable wear, vibrant color, and a smooth finish that's perfect for everyday use and special occasions.",
+  "materials": [
+    "Ayurvedic Herbal Extracts",
+    "Creamy Pigmented Formula",
+    "Moisturizing Ingredients"
+  ],
+  "images": [
+    "/images/lip-stick-3.jpg"
+  ],
+  "isSample": false
+},{
+  "id": "p-096",
+  "slug": "matte-lipstick-collection",
+  "name": "Matte Lipstick Collection",
+  "price": "₹___",
+  "category": "Lipsticks",
+  "categorySlug": "beauty-products/lipsticks",
+  "description": "A vibrant collection of richly pigmented matte lipsticks designed for bold color, smooth application, and comfortable all-day wear.",
+  "story": "Featuring a stunning range of reds, pinks, corals, and bold statement shades, this lipstick collection delivers intense color payoff with a creamy texture that settles into a soft matte finish. Perfect for everyday makeup and special occasions, these lipsticks provide long-lasting wear while keeping lips feeling comfortable.",
+  "materials": [
+    "Highly Pigmented Color Formula",
+    "Creamy Matte Texture",
+    "Long-Wear Finish"
+  ],
+  "images": [
+    "/images/lip-stick-4.jpg"
+  ],
+  "isSample": false
+}
+]
