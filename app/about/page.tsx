@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "About Us",
   description:
-    "The story behind Sruthy Cosmetics And Boutiques — a family atelier in Salem built on craftsmanship and personal service.",
+    "The story behind Sruthy Cosmetics And Boutiques — a family atelier in Kannumaamoodu built on craftsmanship and personal service.",
   path: "/about",
   image: "/images/store-front.jpg",
 });
@@ -21,7 +21,7 @@ const crumbs = [
 
 /** Placeholder brand narrative — replace with the real founder story and milestones before launch. */
 const timeline = [
-  { year: "Year One", milestone: "Opened as a small boutique counter in Salem, focused on bridal jewellery." },
+  { year: "Year One", milestone: "Opened as a small boutique counter in Kannumaamoodu, focused on bridal jewellery." },
   { year: "Year Three", milestone: "Added an in-house Aari work and stitching atelier." },
   { year: "Year Five", milestone: "Expanded into cosmetics and everyday beauty essentials." },
   { year: "Today", milestone: "A full bridal-to-boutique destination, still family-run." },
@@ -31,7 +31,7 @@ const values = [
   { icon: Gem, title: "Craftsmanship", description: "Every stitched and hand-worked piece is made in-house, not mass-produced." },
   { icon: Heart, title: "Personal Service", description: "Consultations over checkout — we get to know your look before we start." },
   { icon: Sparkles, title: "Curation", description: "A tightly edited catalog, not an endless scroll — everything is chosen deliberately." },
-  { icon: Users, title: "Community", description: "Built for Salem's brides, students, and families, one visit at a time." },
+  { icon: Users, title: "Community", description: "Built for Kannumaamoodu's brides, students, and families, one visit at a time." },
 ];
 
 export default function AboutPage() {
@@ -51,7 +51,7 @@ export default function AboutPage() {
             </h1>
             <p className="mt-4 max-w-md text-charcoal/70">
               Sruthy Cosmetics And Boutiques started as a single counter of bridal jewellery in
-              Salem. What kept people coming back wasn't a catalog — it was a team that took the
+              Kannumaamoodu. What kept people coming back wasn't a catalog — it was a team that took the
               time to understand what each customer actually needed, whether that was a full
               bridal look or a single everyday essential.
             </p>

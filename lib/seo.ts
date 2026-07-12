@@ -42,14 +42,14 @@ export function buildMetadata({ title, description, path = "/", image }: PageSeo
 /** Reference copy for the four pages the brief calls out explicitly. */
 export const seoExamples = {
   home: {
-    title: "Sruthy Cosmetics And Boutiques — Salem",
+    title: "Sruthy Cosmetics And Boutiques — Kannumaamoodu",
     description:
-      "Premium cosmetics, bridal jewellery, and boutique fashion in Salem. Visit the store or book a consultation with Sruthy.",
+      "Premium cosmetics, bridal jewellery, and boutique fashion in Kannumaamoodu. Visit the store or book a consultation with Sruthy.",
   },
   productsCategory: {
     title: "Jewellery Collection",
     description:
-      "Explore earrings, necklaces, bangles, and wedding jewellery sets at Sruthy Cosmetics And Boutiques, Salem.",
+      "Explore earrings, necklaces, bangles, and wedding jewellery sets at Sruthy Cosmetics And Boutiques, Kannumaamoodu.",
   },
   productPage: {
     title: "Kundan Bridal Necklace",
@@ -57,7 +57,7 @@ export const seoExamples = {
       "Hand-finished Kundan bridal necklace from Sruthy's wedding jewellery collection — visit the store or book a consultation.",
   },
   contact: {
-    title: "Visit Us in Salem",
+    title: "Visit Us in Kannumaamoodu",
     description:
       "Find directions, store hours, and ways to reach Sruthy Cosmetics And Boutiques — call, WhatsApp, or book a consultation.",
   },

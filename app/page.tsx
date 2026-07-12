@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <>
       <Hero
-        eyebrow="Salem"
+        eyebrow="Kannumaamoodu"
         title={siteConfig.name}
         subtitle={siteConfig.tagline}
         microcopy="Now booking bridal consultations for wedding season"

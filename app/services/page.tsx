@@ -14,7 +14,7 @@ import { findProductsByCategoryPath } from "@/lib/products";
 export const metadata: Metadata = buildMetadata({
   title: "Boutique Services",
   description:
-    "Custom dress designing, bridal costume design, and hand Aari work at Sruthy Cosmetics And Boutiques — book a consultation in Salem.",
+    "Custom dress designing, bridal costume design, and hand Aari work at Sruthy Cosmetics And Boutiques — book a consultation in Kannumaamoodu.",
   path: "/services",
   image: "/images/boutique-stitching-1.jpg",
 });
