@@ -130,7 +130,13 @@ export default function ProductDetail({ product }: { product: Product }) {
               <Instagram size={15} aria-hidden="true" /> {siteConfig.ctas.viewInstagram}
             </a>
             <a
-              href={directionsLink(siteConfig.geo.latitude, siteConfig.geo.longitude, siteConfig.geo.placeId, siteConfig.name)}
+              href={directionsLink(
+                siteConfig.geo.latitude,
+                siteConfig.geo.longitude,
+                siteConfig.geo.placeId,
+                siteConfig.name,
+                `${siteConfig.address.line1}, ${siteConfig.address.locality}, ${siteConfig.address.region} ${siteConfig.address.postalCode}`
+              )}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-charcoal/70 hover:text-rose-gold"

@@ -44,7 +44,13 @@ export default function LocationStrip() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href={directionsLink(siteConfig.geo.latitude, siteConfig.geo.longitude, siteConfig.geo.placeId, siteConfig.name)}
+              href={directionsLink(
+                siteConfig.geo.latitude,
+                siteConfig.geo.longitude,
+                siteConfig.geo.placeId,
+                siteConfig.name,
+                `${siteConfig.address.line1}, ${siteConfig.address.locality}, ${siteConfig.address.region} ${siteConfig.address.postalCode}`
+              )}
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-coral px-6 py-3 text-sm font-semibold text-luxury-white shadow-soft-sm transition-transform hover:-translate-y-0.5"

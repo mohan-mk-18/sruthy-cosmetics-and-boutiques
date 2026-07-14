@@ -38,14 +38,26 @@ export function telLink(phone: string): string {
   return `tel:${phone.replace(/[^\d+]/g, "")}`;
 }
 
-/** Google Maps directions link. Uses the business name + Place ID (when
- *  available) as the destination so it opens the real business listing
- *  (reviews, photos, hours) instead of a bare coordinate pin. Falls back
- *  to raw lat/lng only if no name/placeId is available. */
-export function directionsLink(lat: number, lng: number, placeId?: string, label?: string): string {
-  const destination = label ? encodeURIComponent(label) : `${lat},${lng}`;
-  const base = `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
-  return placeId ? `${base}&destination_place_id=${placeId}` : base;
+/** Google Maps directions link. Uses coordinates as the destination and,
+ * when available, the Place ID plus a precise address/query string so it
+ * opens the correct place on both desktop and mobile Google Maps. */
+export function directionsLink(
+  lat: number,
+  lng: number,
+  placeId?: string,
+  label?: string,
+  address?: string
+): string {
+  const params = new URLSearchParams({
+    api: "1",
+    destination: `${lat},${lng}`,
+  });
+
+  if (placeId) params.set("destination_place_id", placeId);
+  if (address) params.set("query", address);
+  else if (label) params.set("query", label);
+
+  return `https://www.google.com/maps/dir/?${params.toString()}`;
 }
 
 /** Canonical "view this exact business on Google Maps" link, using its CID.

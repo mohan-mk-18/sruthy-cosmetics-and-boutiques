@@ -46,7 +46,13 @@ export default function MapEmbed() {
               View on Google Maps →
             </a>
             <a
-              href={directionsLink(latitude, longitude, placeId, siteConfig.name)}
+              href={directionsLink(
+                latitude,
+                longitude,
+                placeId,
+                siteConfig.name,
+                `${siteConfig.address.line1}, ${siteConfig.address.locality}, ${siteConfig.address.region} ${siteConfig.address.postalCode}`
+              )}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-sm font-semibold text-rose-gold"
