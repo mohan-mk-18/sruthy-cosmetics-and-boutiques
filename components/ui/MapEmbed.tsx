@@ -9,11 +9,12 @@ import { directionsLink } from "@/lib/utils";
  */
 export default function MapEmbed() {
   const { latitude, longitude, placeId } = siteConfig.geo;
-  const query = placeId
-    ? `place_id:${placeId}`
-    : encodeURIComponent(
-        `${siteConfig.address.line1}, ${siteConfig.address.locality}, ${siteConfig.address.region} ${siteConfig.address.postalCode}`
-      );
+  // Business name + locality reliably matches the real Google listing.
+  // NOTE: do not use `place_id:${placeId}` here — that syntax only works
+  // inside Google's embed iframe. If someone taps through to open the map
+  // in the native Google Maps app, it forwards this query as literal text,
+  // and "place_id:ChIJ..." fails as a search term ("No results found").
+  const query = encodeURIComponent(`${siteConfig.name}, ${siteConfig.address.locality}`);
   const embedSrc = `https://maps.google.com/maps?q=${query}&z=15&output=embed`;
 
   return (

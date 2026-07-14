@@ -25,7 +25,6 @@ const BOUTIQUE_CATEGORIES: { key: string; label: string; categorySlug: string | 
   { key: "customized-dress-designing", label: "Customized Dress Designing", categorySlug: "boutique/customized-dress-stitching" },
   { key: "bridal-costume-design", label: "Bridal Costume Design", categorySlug: "boutique/bridal-costume-design" },
   { key: "aari-work", label: "Aari Work", categorySlug: "boutique/aari-work" },
-  { key: "others", label: "Others", categorySlug: "boutique/others" },
 ];
 
 export default function BoutiqueCategoryBrowser({ products }: { products: Product[] }) {

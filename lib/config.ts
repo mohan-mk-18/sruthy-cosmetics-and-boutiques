@@ -68,7 +68,6 @@ export const siteConfig: SiteConfig = {
         { label: "Customized Dress Designing", href: "/services?category=customized-dress-designing#boutique-categories" },
         { label: "Bridal Costume Design", href: "/services?category=bridal-costume-design#boutique-categories" },
         { label: "Aari Work", href: "/services?category=aari-work#boutique-categories" },
-        { label: "Others", href: "/services?category=others#boutique-categories" },
       ],
     },
     { label: "About", href: "/about" },

@@ -26,7 +26,10 @@ export function slugify(label: string): string {
 }
 
 /** wa.me deep link with a prefilled, friendly opening message. */
-export function whatsappLink(phoneDigits: string, message = "Hi Sruthy! I'd like to know more."): string {
+export function whatsappLink(
+  phoneDigits: string,
+  message = "Hello Sruthy Cosmetics & Boutique! 💖 I'm interested in shopping with you. Could you guide me with the available products and prices?"
+): string {
   return `https://wa.me/${phoneDigits}?text=${encodeURIComponent(message)}`;
 }
 
