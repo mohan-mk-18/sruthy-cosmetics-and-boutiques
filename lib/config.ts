@@ -27,6 +27,7 @@ export const siteConfig: SiteConfig = {
     latitude: 8.3824921,
     longitude: 77.1704505,
     placeId: "ChIJ13tq312tBTsR7tqcxvdjGRI",
+    cid: "1304183482940709614",
   },
   hours: [
     { day: "Monday – Saturday", time: "9:00 AM – 8:00 PM" },
@@ -68,6 +69,7 @@ export const siteConfig: SiteConfig = {
         { label: "Customized Dress Designing", href: "/services?category=customized-dress-designing#boutique-categories" },
         { label: "Bridal Costume Design", href: "/services?category=bridal-costume-design#boutique-categories" },
         { label: "Aari Work", href: "/services?category=aari-work#boutique-categories" },
+        { label: "Others", href: "/services?category=others#boutique-categories" },
       ],
     },
     { label: "About", href: "/about" },

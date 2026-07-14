@@ -48,6 +48,15 @@ export function directionsLink(lat: number, lng: number, placeId?: string, label
   return placeId ? `${base}&destination_place_id=${placeId}` : base;
 }
 
+/** Canonical "view this exact business on Google Maps" link, using its CID.
+ *  Unlike a name search or `place_id:` embed query, a CID link always opens
+ *  the correct listing even when other businesses nearby share a similar
+ *  name — this is the same format Google's own "Share" links use. */
+export function mapsPlaceLink(cid?: string, lat?: number, lng?: number): string {
+  if (cid) return `https://www.google.com/maps?cid=${cid}`;
+  return `https://www.google.com/maps?q=${lat},${lng}`;
+}
+
 /** Truncates copy to a max length for card one-liners (adds ellipsis if cut). */
 export function truncate(text: string, max = 100): string {
   if (text.length <= max) return text;

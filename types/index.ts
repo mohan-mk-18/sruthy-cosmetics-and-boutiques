@@ -31,6 +31,9 @@ export interface SiteConfig {
     latitude: number;
     longitude: number;
     placeId?: string;
+    /** Canonical Google Maps CID — guarantees opening this exact business
+     *  listing even when nearby businesses share a similar name. */
+    cid?: string;
   };
   hours: { day: string; time: string }[];
   nav: NavItem[];
