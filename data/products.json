@@ -12,32 +12,6 @@
   "images": ["/images/garnier-booster-serum.jpg"],
   "isSample": false
 },
-  {
-    "id": "p-008",
-    "slug": "aari-work-bridal-blouse",
-    "name": "Aari Work Bridal Blouse",
-    "price": "Price on request",
-    "category": "Aari Work",
-    "categorySlug": "boutique/aari-work",
-    "description": "Hand-embroidered Aari work blouse, made to measure.",
-    "story": "Every thread on this blouse is hand-worked by our in-house Aari artisans — book a consultation to choose motifs, stone density, and colourway before we take your measurements.",
-    "materials": ["Silk base fabric", "Zari and bead Aari work"],
-    "images": ["/images/boutique-bridal-costume-1.jpg"],
-    "isSample": true
-  },
-  {
-    "id": "p-009",
-    "slug": "customised-anarkali-stitching",
-    "name": "Customised Anarkali Stitching",
-    "price": "Price on request",
-    "category": "Customized Dress Stitching",
-    "categorySlug": "boutique/customized-dress-stitching",
-    "description": "Made-to-measure Anarkali stitching in your chosen fabric.",
-    "story": "Bring your own fabric or choose from our in-store materials — our tailoring team takes it from sketch to fitting across a short, guided consultation process.",
-    "materials": ["Customer-selected fabric"],
-    "images": ["/images/boutique-stitching-1.jpg"],
-    "isSample": true
-  },
 {
   "id": "p-011",
   "slug": "plum-niacinamide-serum",
