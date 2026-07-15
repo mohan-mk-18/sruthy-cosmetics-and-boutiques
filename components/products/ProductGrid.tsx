@@ -11,10 +11,27 @@ import { siteConfig } from "@/lib/config";
 
 const PAGE_SIZE = 8;
 
+/**
+ * Niche-specific "there's more in store" line shown under the category
+ * filter chips — keyed by the top-level category slug (e.g. "jewellery",
+ * "beauty-products"). Falls back to a generic line for anything else.
+ */
+const VISIT_STORE_COPY: Record<string, string> = {
+  jewellery:
+    "This is only a preview — visit our Kannumaamoodu store for our complete jewellery collection, including fresh arrivals in bridal sets, gold-covering pieces, and everyday designs not yet listed online.",
+  "beauty-products":
+    "Browsing online shows just a slice of what's in store. Drop by for our full range of skincare, cosmetics, and beauty essentials — with our team on hand to help you pick what suits you best.",
+};
+
+const DEFAULT_VISIT_STORE_COPY =
+  "This is only a preview of our collection — visit the store for the full range and personalised recommendations.";
+
 interface ProductGridProps {
   products: Product[];
   /** Heading shown above the filter bar — usually the resolved category label. */
   heading: string;
+  /** Top-level category slug (e.g. "jewellery", "beauty-products") — selects the visit-store copy below. */
+  niche?: string;
 }
 
 /**
@@ -23,20 +40,11 @@ interface ProductGridProps {
  * short description — no price), and a single "Visit Store" CTA for the
  * whole page rather than one per card.
  */
-export default function ProductGrid({ products, heading }: ProductGridProps) {
-  const categories = useMemo(() => {
-    const uniqueCategories = Array.from(new Set(products.map((p) => p.category)));
-
-    return uniqueCategories.sort((a, b) => {
-      const aIsOthers = a.toLowerCase() === "others";
-      const bIsOthers = b.toLowerCase() === "others";
-
-      if (aIsOthers && !bIsOthers) return 1;
-      if (!aIsOthers && bIsOthers) return -1;
-
-      return a.localeCompare(b);
-    });
-  }, [products]);
+export default function ProductGrid({ products, heading, niche }: ProductGridProps) {
+  const categories = useMemo(
+    () => Array.from(new Set(products.map((p) => p.category))).sort(),
+    [products]
+  );
 
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -98,6 +106,10 @@ export default function ProductGrid({ products, heading }: ProductGridProps) {
             ))}
           </div>
         )}
+
+        <p className="mt-4 max-w-xl text-sm italic text-charcoal/60">
+          {niche ? (VISIT_STORE_COPY[niche] ?? DEFAULT_VISIT_STORE_COPY) : DEFAULT_VISIT_STORE_COPY}
+        </p>
 
         {visible.length > 0 ? (
           <motion.div

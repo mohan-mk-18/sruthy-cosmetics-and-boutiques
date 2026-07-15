@@ -70,6 +70,7 @@ export default function ProductsCatchAllPage({ params }: PageProps) {
   if (!isKnownCategory && items.length === 0) notFound();
 
   const label = categoryLabelForPath(path);
+  const rootCategory = path.split("/")[0];
   const crumbs = [
     { name: "Home", href: "/" },
     ...path.split("/").map((_, i, arr) => {
@@ -82,7 +83,7 @@ export default function ProductsCatchAllPage({ params }: PageProps) {
     <>
       <JsonLd data={breadcrumbSchema(crumbs)} />
       <Breadcrumbs items={crumbs} />
-      <ProductGrid products={items} heading={label} />
+      <ProductGrid products={items} heading={label} niche={rootCategory} />
     </>
   );
 }

@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
-import { slideUp, viewportOnce } from "@/lib/animations";
+import { motion } from "framer-motion";
+import { DURATION, EASE, slideUp, viewportOnce, prefersReducedMotion } from "@/lib/animations";
 
 const slides = [
   { src: "/images/bridal-collection-hero.jpg", alt: "Bridal collection editorial — full look" },
@@ -12,8 +12,44 @@ const slides = [
   { src: "/images/boutique-bridal-costume-1.jpg", alt: "Aari work bridal blouse detail" },
 ];
 
+const AUTOPLAY_MS = 4500;
+const SWIPE_THRESHOLD_PX = 40;
+
 export default function BridalHighlight() {
   const [active, setActive] = useState(0);
+  const touchStartX = useRef<number | null>(null);
+  const touchDeltaX = useRef(0);
+
+  function goTo(index: number) {
+    setActive(((index % slides.length) + slides.length) % slides.length);
+  }
+
+  // Autoplay — restarts its timer whenever `active` changes, so a manual
+  // click/swipe doesn't get immediately overridden by a pending tick.
+  useEffect(() => {
+    if (prefersReducedMotion()) return;
+    const id = setInterval(() => {
+      setActive((prev) => (prev + 1) % slides.length);
+    }, AUTOPLAY_MS);
+    return () => clearInterval(id);
+  }, [active]);
+
+  function handleTouchStart(e: React.TouchEvent) {
+    touchStartX.current = e.touches[0]?.clientX ?? null;
+    touchDeltaX.current = 0;
+  }
+
+  function handleTouchMove(e: React.TouchEvent) {
+    if (touchStartX.current === null) return;
+    touchDeltaX.current = (e.touches[0]?.clientX ?? touchStartX.current) - touchStartX.current;
+  }
+
+  function handleTouchEnd() {
+    if (touchDeltaX.current > SWIPE_THRESHOLD_PX) goTo(active - 1);
+    else if (touchDeltaX.current < -SWIPE_THRESHOLD_PX) goTo(active + 1);
+    touchStartX.current = null;
+    touchDeltaX.current = 0;
+  }
 
   return (
     <section className="section-y bg-charcoal text-luxury-white" aria-labelledby="bridal-heading">
@@ -23,26 +59,47 @@ export default function BridalHighlight() {
           whileInView="visible"
           viewport={viewportOnce}
           variants={slideUp}
-          className="media-frame aspect-[4/5] rounded-card"
+          className="media-frame aspect-[4/5] touch-pan-y select-none rounded-card"
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
         >
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={slides[active]?.src}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className="relative h-full w-full"
-            >
-              <Image
-                src={slides[active]?.src ?? slides[0]!.src}
-                alt={slides[active]?.alt ?? ""}
-                fill
-                sizes="(max-width: 1024px) 90vw, 45vw"
-                className="object-cover"
-              />
-            </motion.div>
-          </AnimatePresence>
+          {/* Sliding track — one slide wide per item, translated by index */}
+          <div
+            className="flex h-full"
+            style={{
+              width: `${slides.length * 100}%`,
+              transform: `translateX(-${active * (100 / slides.length)}%)`,
+              transition: `transform ${DURATION.extended}s cubic-bezier(${EASE.join(",")})`,
+            }}
+          >
+            {slides.map((slide) => (
+              <div key={slide.src} className="relative h-full shrink-0" style={{ width: `${100 / slides.length}%` }}>
+                <Image
+                  src={slide.src}
+                  alt={slide.alt}
+                  fill
+                  draggable={false}
+                  sizes="(max-width: 1024px) 90vw, 45vw"
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Prev/next tap zones — invisible, sit either side of the frame for easy re-tapping on mobile */}
+          <button
+            type="button"
+            aria-label="Previous image"
+            onClick={() => goTo(active - 1)}
+            className="absolute inset-y-0 left-0 w-1/4"
+          />
+          <button
+            type="button"
+            aria-label="Next image"
+            onClick={() => goTo(active + 1)}
+            className="absolute inset-y-0 right-0 w-1/4"
+          />
 
           <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2" role="tablist" aria-label="Bridal collection images">
             {slides.map((slide, i) => (
@@ -52,7 +109,7 @@ export default function BridalHighlight() {
                 role="tab"
                 aria-selected={active === i}
                 aria-label={`Show image ${i + 1} of ${slides.length}`}
-                onClick={() => setActive(i)}
+                onClick={() => goTo(i)}
                 className={`h-2 rounded-full transition-all ${
                   active === i ? "w-6 bg-luxury-white" : "w-2 bg-luxury-white/50"
                 }`}

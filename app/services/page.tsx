@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { Suspense } from "react";
 import { Scissors, Shirt, Gem, PenTool } from "lucide-react";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import ProcessTimeline from "@/components/services/ProcessTimeline";
-import BoutiqueCategoryBrowser from "@/components/services/BoutiqueCategoryBrowser";
+import BoutiqueInstagramCta from "@/components/services/BoutiqueInstagramCta";
 import BookingForm from "@/components/forms/BookingForm";
 import JsonLd from "@/components/seo/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
-import { findProductsByCategoryPath } from "@/lib/products";
 
 export const metadata: Metadata = buildMetadata({
   title: "Boutique Services",
@@ -58,8 +56,6 @@ const services = [
     image: "/images/boutique-bridal-costume-1.jpg",
   },
 ];
-
-const boutiqueProducts = findProductsByCategoryPath("boutique");
 
 export default function ServicesPage() {
   return (
@@ -125,9 +121,7 @@ export default function ServicesPage() {
 
       <section className="section-y">
         <div className="container">
-          <Suspense fallback={<div className="h-40" aria-hidden="true" />}>
-            <BoutiqueCategoryBrowser products={boutiqueProducts} />
-          </Suspense>
+          <BoutiqueInstagramCta />
         </div>
       </section>
 
