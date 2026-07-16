@@ -83,8 +83,7 @@ export default function Footer() {
 
       <div className="border-t border-blush/60 py-6">
         <p className="container text-center text-xs text-charcoal/55">
-          © {year} {siteConfig.name}. All rights reserved. Sample content and imagery shown are
-          placeholders.
+          © {year} {siteConfig.name}. All rights reserved.
         </p>
       </div>
     </footer>
