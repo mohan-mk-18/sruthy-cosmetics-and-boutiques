@@ -116,22 +116,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section-y bg-luxury-white">
-        <div className="container">
-          <h2 className="font-display text-3xl text-charcoal sm:text-4xl">Inside the Atelier</h2>
-          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
-            {[
-              "/images/gallery-1.jpg",
-              "/images/gallery-4.jpg",
-              "/images/gallery-6.jpg",
-            ].map((src) => (
-              <div key={src} className="media-frame aspect-[4/5] rounded-card">
-                <Image src={src} alt="Atelier interior" fill sizes="33vw" className="object-cover" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 }

@@ -4,12 +4,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Instagram } from "lucide-react";
 import { siteConfig } from "@/lib/config";
-import { slideUp, staggerContainer, viewportOnce } from "@/lib/animations";
+import { slideUp, viewportOnce } from "@/lib/animations";
 
-const posts = Array.from({ length: 6 }, (_, i) => ({
-  src: `/images/instagram-placeholder-${i + 1}.jpg`,
-  alt: `Sample Instagram post ${i + 1} from Sruthy Cosmetics And Boutiques`,
-}));
+const featuredPost = {
+  src: "/images/instagram-placeholder-1.jpg",
+  alt: "Featured Instagram post from Sruthy Cosmetics And Boutiques",
+};
 
 export default function InstagramShowcase() {
   return (
@@ -27,7 +27,7 @@ export default function InstagramShowcase() {
               Follow Along
             </p>
             <h2 id="instagram-heading" className="mt-2 font-display text-3xl text-charcoal sm:text-4xl">
-              @sruthycosmetics
+              @sruthy.cosmetics.and.boutiques
             </h2>
           </div>
           <a
@@ -42,41 +42,33 @@ export default function InstagramShowcase() {
           </a>
         </motion.div>
 
-        <motion.div
-          variants={staggerContainer(0.06)}
+        <motion.a
+          href={siteConfig.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-cursor-hover
           initial="hidden"
           whileInView="visible"
           viewport={viewportOnce}
-          className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4"
+          variants={slideUp}
+          className="group media-frame mx-auto block aspect-[4/3] max-w-2xl rounded-card"
+          aria-label="Open our Instagram page"
         >
-          {posts.map((post) => (
-            <motion.a
-              key={post.src}
-              href={siteConfig.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              variants={slideUp}
-              data-cursor-hover
-              className="group media-frame aspect-square rounded-card"
-              aria-label="Open this post on Instagram"
-            >
-              <Image
-                src={post.src}
-                alt={post.alt}
-                fill
-                sizes="(max-width: 768px) 45vw, 30vw"
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 flex items-center justify-center bg-charcoal/0 transition-colors duration-300 group-hover:bg-charcoal/40">
-                <Instagram
-                  size={22}
-                  className="text-luxury-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-                  aria-hidden="true"
-                />
-              </div>
-            </motion.a>
-          ))}
-        </motion.div>
+          <Image
+            src={featuredPost.src}
+            alt={featuredPost.alt}
+            fill
+            sizes="(max-width: 768px) 90vw, 42vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-charcoal/0 transition-colors duration-300 group-hover:bg-charcoal/40">
+            <Instagram
+              size={28}
+              className="text-luxury-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              aria-hidden="true"
+            />
+          </div>
+        </motion.a>
       </div>
     </section>
   );

@@ -6,7 +6,6 @@ import BoutiqueServices from "@/components/home/BoutiqueServices";
 import BridalHighlight from "@/components/home/BridalHighlight";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import InstagramShowcase from "@/components/home/InstagramShowcase";
-import InsideAtelier from "@/components/home/InsideAtelier";
 import LocationStrip from "@/components/home/LocationStrip";
 import { siteConfig } from "@/lib/config";
 import { buildMetadata, seoExamples } from "@/lib/seo";
@@ -40,7 +39,6 @@ export default function HomePage() {
       <BridalHighlight />
       <WhyChooseUs />
       <InstagramShowcase />
-      <InsideAtelier />
       <LocationStrip />
     </>
   );

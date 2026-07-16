@@ -5,12 +5,12 @@ import { Award, Heart, Users, Sparkles } from "lucide-react";
 import CountUpStat from "@/components/ui/CountUpStat";
 import { slideUp, staggerContainer, viewportOnce } from "@/lib/animations";
 
-/** Sample figures — replace with real numbers once available; see README § 9. */
+/** Real figures provided by the client. */
 const pillars = [
-  { icon: Award, value: 20, suffix: "+", label: "Years of Craftsmanship" },
-  { icon: Sparkles, value: 15, suffix: "+", label: "Curated Categories" },
-  { icon: Heart, value: 500, suffix: "+", label: "Brides Styled" },
-  { icon: Users, value: 1000, suffix: "+", label: "Consultations Given" },
+  { icon: Award, value: 5, suffix: "+", label: "Years of Craftsmanship" },
+  { icon: Sparkles, value: 20, suffix: "+", label: "Curated Categories" },
+  { icon: Heart, value: 20, suffix: "+", label: "Brides Styled" },
+  { icon: Users, value: 100, suffix: "+", label: "Consultations Given" },
 ];
 
 export default function WhyChooseUs() {

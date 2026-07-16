@@ -41,10 +41,17 @@ interface ProductGridProps {
  * whole page rather than one per card.
  */
 export default function ProductGrid({ products, heading, niche }: ProductGridProps) {
-  const categories = useMemo(
-    () => Array.from(new Set(products.map((p) => p.category))).sort(),
-    [products]
-  );
+  const categories = useMemo(() => {
+    return Array.from(new Set(products.map((p) => p.category))).sort((a, b) => {
+      const aIsOthers = a.toLowerCase() === "others";
+      const bIsOthers = b.toLowerCase() === "others";
+
+      if (aIsOthers && !bIsOthers) return 1;
+      if (!aIsOthers && bIsOthers) return -1;
+
+      return a.localeCompare(b);
+    });
+  }, [products]);
 
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
