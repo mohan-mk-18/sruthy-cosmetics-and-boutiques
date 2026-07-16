@@ -20,13 +20,16 @@ export default function InstagramShowcase() {
           whileInView="visible"
           viewport={viewportOnce}
           variants={slideUp}
-          className="mb-10 flex flex-wrap items-end justify-between gap-4"
+          className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"
         >
-          <div>
+          <div className="min-w-0">
             <p className="font-micro text-xs uppercase tracking-[0.25em] text-rose-gold">
               Follow Along
             </p>
-            <h5 id="instagram-heading" className="mt-2 font-display text-3xl text-charcoal sm:text-4xl">
+            <h5
+              id="instagram-heading"
+              className="mt-2 max-w-full break-words font-display text-2xl leading-tight text-charcoal sm:text-4xl"
+            >
               @sruthy.cosmetics.and.boutiques
             </h5>
           </div>
@@ -35,7 +38,7 @@ export default function InstagramShowcase() {
             target="_blank"
             rel="noopener noreferrer"
             data-cursor-hover
-            className="inline-flex items-center gap-2 rounded-full bg-charcoal px-5 py-2.5 text-sm font-semibold text-luxury-white transition-transform hover:-translate-y-0.5"
+            className="inline-flex w-fit items-center gap-2 self-start rounded-full bg-charcoal px-5 py-2.5 text-sm font-semibold text-luxury-white transition-transform hover:-translate-y-0.5 sm:self-auto"
           >
             <Instagram size={16} aria-hidden="true" />
             {siteConfig.ctas.viewInstagram}
