@@ -26,9 +26,9 @@ export default function InstagramShowcase() {
             <p className="font-micro text-xs uppercase tracking-[0.25em] text-rose-gold">
               Follow Along
             </p>
-            <h2 id="instagram-heading" className="mt-2 font-display text-3xl text-charcoal sm:text-4xl">
+            <h5 id="instagram-heading" className="mt-2 font-display text-3xl text-charcoal sm:text-4xl">
               @sruthy.cosmetics.and.boutiques
-            </h2>
+            </h5>
           </div>
           <a
             href={siteConfig.instagram}
