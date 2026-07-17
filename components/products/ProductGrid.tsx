@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import ProductOverviewCard from "@/components/products/ProductOverviewCard";
 import type { Product } from "@/types";
-import { slideUp, staggerContainer, viewportOnce } from "@/lib/animations";
+import { slideUp, staggerContainer } from "@/lib/animations";
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/lib/config";
 
@@ -42,9 +42,11 @@ interface ProductGridProps {
  */
 export default function ProductGrid({ products, heading, niche }: ProductGridProps) {
   const categories = useMemo(() => {
-    return Array.from(new Set(products.map((p) => p.category))).sort((a, b) => {
-      const aIsOthers = a.toLowerCase() === "others";
-      const bIsOthers = b.toLowerCase() === "others";
+    const uniqueCategories = Array.from(new Set(products.map((p) => p.category)));
+
+    return uniqueCategories.sort((a, b) => {
+      const aIsOthers = a.toLowerCase().includes("others");
+      const bIsOthers = b.toLowerCase().includes("others");
 
       if (aIsOthers && !bIsOthers) return 1;
       if (!aIsOthers && bIsOthers) return -1;
@@ -122,8 +124,7 @@ export default function ProductGrid({ products, heading, niche }: ProductGridPro
           <motion.div
             variants={staggerContainer(0.06)}
             initial="hidden"
-            whileInView="visible"
-            viewport={viewportOnce}
+            animate="visible"
             className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4"
           >
             {visible.map((product) => (
