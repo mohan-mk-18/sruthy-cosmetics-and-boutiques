@@ -3,9 +3,10 @@
 import { useState, type FormEvent } from "react";
 
 /**
- * Client-side accessible contact form. Wire the onSubmit handler to your
- * form backend of choice (e.g. an API route, Formspree, or email service) —
- * this component only handles validation state and UI.
+ * Sends the form to Web3Forms (https://web3forms.com), which emails the
+ * submission straight to whichever inbox the access key was created for —
+ * no backend server needed. Set NEXT_PUBLIC_WEB3FORMS_KEY in .env.local
+ * (and in your Vercel project's Environment Variables) to your key.
  */
 export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
@@ -13,10 +14,26 @@ export default function ContactForm() {
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? "");
+    formData.append("subject", "New enquiry — Sruthy Cosmetics And Boutiques website");
+    formData.append("from_name", "Sruthy Cosmetics Website");
+
     try {
-      // TODO: replace with a real submission endpoint.
-      await new Promise((res) => setTimeout(res, 700));
-      setStatus("success");
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await res.json();
+
+      if (data.success) {
+        setStatus("success");
+        form.reset();
+      } else {
+        setStatus("error");
+      }
     } catch {
       setStatus("error");
     }

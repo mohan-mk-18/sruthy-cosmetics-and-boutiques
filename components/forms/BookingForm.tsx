@@ -12,15 +12,41 @@ const SERVICES = [
 /**
  * Appointment-request form for the Boutique Services page.
  * Distinct from ContactForm: focused purely on booking a consultation slot.
+ *
+ * Sends the form to Web3Forms (https://web3forms.com), which emails the
+ * submission straight to whichever inbox the access key was created for —
+ * no backend server needed. Set NEXT_PUBLIC_WEB3FORMS_KEY in .env.local
+ * (and in your Vercel project's Environment Variables) to your key.
  */
 export default function BookingForm() {
-  const [status, setStatus] = useState<"idle" | "submitting" | "success">("idle");
+  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
-    await new Promise((res) => setTimeout(res, 700)); // TODO: wire to a real endpoint
-    setStatus("success");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? "");
+    formData.append("subject", "New appointment request — Sruthy Cosmetics And Boutiques");
+    formData.append("from_name", "Sruthy Cosmetics Website");
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await res.json();
+
+      if (data.success) {
+        setStatus("success");
+        form.reset();
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   }
 
   if (status === "success") {
@@ -115,6 +141,12 @@ export default function BookingForm() {
       >
         {status === "submitting" ? "Submitting…" : "Request Appointment"}
       </button>
+
+      {status === "error" && (
+        <p role="alert" className="text-sm text-coral">
+          Something went wrong — please try again, or reach us directly by phone or WhatsApp.
+        </p>
+      )}
     </form>
   );
 }
