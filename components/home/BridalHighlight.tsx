@@ -9,7 +9,7 @@ import { DURATION, EASE, slideUp, viewportOnce, prefersReducedMotion } from "@/l
 const slides = [
   { src: "/images/bridal-collection-hero.jpg", alt: "Bridal collection editorial — full look" },
   { src: "/images/jewellery-wedding-set-1.jpg", alt: "Temple wedding jewellery set detail" },
-  { src: "/images/boutique-bridal-costume-1.jpg", alt: "Aari work bridal blouse detail" },
+  { src: "/images/boutique-bridal-costume-2.jpg", alt: "Aari work bridal blouse detail" },
 ];
 
 const AUTOPLAY_MS = 4500;
