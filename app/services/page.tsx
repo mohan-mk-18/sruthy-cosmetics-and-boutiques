@@ -74,7 +74,7 @@ export default function ServicesPage() {
           </p>
         </div>
 
-        <div className="container mt-14 space-y-16">
+        <div className="container mt-14">
           {services.map((service, i) => {
             const Icon = service.icon;
             const reverse = i % 2 === 1;
@@ -84,6 +84,10 @@ export default function ServicesPage() {
                 id={service.id}
                 className={`grid scroll-mt-28 items-center gap-8 lg:grid-cols-2 lg:gap-14 ${
                   reverse ? "lg:[&>*:first-child]:order-2" : ""
+                } ${
+                  i > 0
+                    ? "mt-12 border-t border-blush pt-12 lg:mt-16 lg:border-t-0 lg:pt-0"
+                    : ""
                 }`}
               >
                 <div className="media-frame aspect-[4/3] rounded-card">

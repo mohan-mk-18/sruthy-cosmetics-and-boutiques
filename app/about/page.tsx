@@ -19,12 +19,23 @@ const crumbs = [
   { name: "About", href: "/about" },
 ];
 
-/** Placeholder brand narrative — replace with the real founder story and milestones before launch. */
+/** Real brand narrative — matches the client's actual growth story. */
 const timeline = [
-  { year: "Year One", milestone: "Opened as a small boutique counter in Kannumaamoodu, focused on bridal jewellery." },
-  { year: "Year Three", milestone: "Added an in-house Aari work and stitching atelier." },
-  { year: "Year Five", milestone: "Expanded into cosmetics and everyday beauty essentials." },
-  { year: "Today", milestone: "A full bridal-to-boutique destination, still family-run." },
+  {
+    year: "How It Began",
+    milestone:
+      "A small fancy jewellery and cosmetics counter in Kannumaamoodu — built one honest recommendation at a time.",
+  },
+  {
+    year: "Growing the Boutique",
+    milestone:
+      "We opened a boutique wing for customized dress designing and bridal costume work, standing alongside our original fancy and cosmetics counter.",
+  },
+  {
+    year: "Where We Are Today",
+    milestone:
+      "A complete destination for fancy jewellery, cosmetics, bridal costume design, and hand Aari work — every craft still made in-house, under one roof.",
+  },
 ];
 
 const values = [
@@ -47,20 +58,23 @@ export default function AboutPage() {
               Our Story
             </p>
             <h1 className="mt-2 font-display text-3xl text-charcoal sm:text-4xl">
-              Built Around One Idea: Know the Person, Not Just the Order
+              From One Small Counter to a Complete Bridal-to-Boutique Home
             </h1>
             <p className="mt-4 max-w-md text-charcoal/70">
-              Sruthy Cosmetics And Boutiques started as a single counter of bridal jewellery in
-              Kannumaamoodu. What kept people coming back wasn't a catalog — it was a team that took the
-              time to understand what each customer actually needed, whether that was a full
-              bridal look or a single everyday essential.
+              Sruthy Cosmetics And Boutiques began as a modest fancy jewellery and cosmetics
+              counter in Kannumaamoodu — no grand ambitions at the start, just a promise to treat
+              every customer like family and get every recommendation right.
             </p>
             <p className="mt-4 max-w-md text-charcoal/70">
-              Today that same approach runs across jewellery, beauty, and boutique stitching —
-              every visit starts with a conversation, not a transaction.
+              As trust grew, so did we. We opened a boutique wing for customized dress designing
+              and bridal costume work, standing alongside our original fancy and cosmetics
+              counter — and in time, added hand Aari work to bring even more of the craft
+              in-house.
             </p>
-            <p className="mt-6 text-xs text-charcoal/40">
-              Sample narrative — replace with the real founder story before launch.
+            <p className="mt-4 max-w-md text-charcoal/70">
+              Today, that same idea still runs the shop: fancy jewellery, cosmetics, bridal
+              costume design, and Aari work, all under one roof — every visit still starts with a
+              conversation, not a transaction.
             </p>
           </div>
           <div className="media-frame aspect-[4/5] rounded-card">
@@ -78,7 +92,7 @@ export default function AboutPage() {
       <section className="section-y bg-luxury-white">
         <div className="container">
           <h2 className="font-display text-3xl text-charcoal sm:text-4xl">Our Journey</h2>
-          <div className="relative mt-12 grid gap-8 sm:grid-cols-4 sm:gap-4">
+          <div className="relative mt-12 grid gap-8 sm:grid-cols-3 sm:gap-4">
             <div
               aria-hidden="true"
               className="absolute left-0 top-3 hidden h-px w-full bg-blush sm:block"
