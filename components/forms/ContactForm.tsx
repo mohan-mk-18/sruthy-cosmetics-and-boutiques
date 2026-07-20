@@ -1,51 +1,66 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { siteConfig } from "@/lib/config";
+
+const SERVICE_LABELS: Record<string, string> = {
+  jewellery: "Jewellery",
+  "beauty-products": "Beauty Products",
+  "bridal-boutique": "Bridal Boutique",
+  "dress-stitching": "Dress Stitching",
+  "aari-work": "Aari Work",
+  general: "General Enquiry",
+};
 
 /**
- * Sends the form to Web3Forms (https://web3forms.com), which emails the
- * submission straight to whichever inbox the access key was created for —
- * no backend server needed. Set NEXT_PUBLIC_WEB3FORMS_KEY in .env.local
- * (and in your Vercel project's Environment Variables) to your key.
+ * Builds a pre-filled WhatsApp message and opens a chat with the business
+ * on wa.me — the client asked for WhatsApp instead of email, and is fine
+ * with the visitor tapping Send themselves once WhatsApp opens (that's a
+ * WhatsApp platform limit: a free "click-to-chat" link can only pre-fill
+ * text, not send silently on the visitor's behalf).
  */
 export default function ContactForm() {
-  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "success">("idle");
 
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setStatus("submitting");
 
     const form = e.currentTarget;
     const formData = new FormData(form);
-    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? "");
-    formData.append("subject", "New enquiry — Sruthy Cosmetics And Boutiques website");
-    formData.append("from_name", "Sruthy Cosmetics Website");
+    const name = String(formData.get("name") ?? "").trim();
+    const phone = String(formData.get("phone") ?? "").trim();
+    const serviceValue = String(formData.get("service") ?? "");
+    const message = String(formData.get("message") ?? "").trim();
 
-    try {
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData,
-      });
-      const data = await res.json();
+    const lines = [
+      "New enquiry from the website",
+      `Name: ${name}`,
+      `Phone: ${phone}`,
+      `Service: ${SERVICE_LABELS[serviceValue] ?? "Not specified"}`,
+      `Message: ${message || "—"}`,
+    ];
 
-      if (data.success) {
-        setStatus("success");
-        form.reset();
-      } else {
-        setStatus("error");
-      }
-    } catch {
-      setStatus("error");
-    }
+    const url = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(lines.join("\n"))}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+
+    setStatus("success");
+    form.reset();
   }
 
   if (status === "success") {
     return (
       <div role="status" className="rounded-card bg-blush/40 p-6 text-charcoal">
-        <p className="font-display text-lg">Message sent — thank you.</p>
+        <p className="font-display text-lg">Opening WhatsApp…</p>
         <p className="mt-1 text-sm text-charcoal/70">
-          Our team will get back to you shortly to confirm your visit.
+          Your message is ready in WhatsApp — just hit send there to reach us.
         </p>
+        <button
+          type="button"
+          onClick={() => setStatus("idle")}
+          className="mt-4 text-sm font-semibold text-rose-gold underline underline-offset-2"
+        >
+          Send another message
+        </button>
       </div>
     );
   }
@@ -113,17 +128,10 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        disabled={status === "submitting"}
-        className="mt-2 w-full rounded-full bg-coral px-6 py-3.5 text-sm font-semibold text-luxury-white shadow-soft-sm transition-transform hover:-translate-y-0.5 disabled:opacity-60 sm:w-auto"
+        className="mt-2 w-full rounded-full bg-coral px-6 py-3.5 text-sm font-semibold text-luxury-white shadow-soft-sm transition-transform hover:-translate-y-0.5 sm:w-auto"
       >
-        {status === "submitting" ? "Sending…" : "Send Message"}
+        Send via WhatsApp
       </button>
-
-      {status === "error" && (
-        <p role="alert" className="text-sm text-coral">
-          Something went wrong — please try again, or reach us directly by phone or WhatsApp.
-        </p>
-      )}
     </form>
   );
 }
